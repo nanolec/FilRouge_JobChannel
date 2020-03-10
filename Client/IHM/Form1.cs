@@ -18,6 +18,8 @@ namespace IHM
         private ComboBox comboBoxPoste = new ComboBox();
         private DateTimePicker dateTimePickerCreationStart = new DateTimePicker();
         private DateTimePicker dateTimePickerCreationEnd = new DateTimePicker();
+        private Button razMokett = new Button();
+        private TextBox compteur = new TextBox();
         private DataGridViewOptimized dataGridViewOffre = new DataGridViewOptimized();
         private BindingSource regionSource = new BindingSource();
         private BindingSource contratSource = new BindingSource();
@@ -25,6 +27,7 @@ namespace IHM
         private BindingSource offreSource = new BindingSource();
         private DetailsOffre detailsOffre = new DetailsOffre();
         private FiltersOffreRequest filtersOffreRequest = new FiltersOffreRequest();
+        private ToolTip toolTip = new ToolTip();
 
         //STATE
         private Offre _OffreSelected = null;
@@ -60,7 +63,6 @@ namespace IHM
 
             Load += Form1_Load;
             
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -90,29 +92,22 @@ namespace IHM
             this.Text = "Liste des Offres";
             this.MinimumSize = new System.Drawing.Size(830, 500);
 
+            // Set up the delays for the ToolTip.
+            toolTip.AutoPopDelay = 5000;
+            toolTip.InitialDelay = 300;
+            toolTip.ReshowDelay = 1000;
+            // Force the ToolTip text to be displayed whether or not the form is active.
+            toolTip.ShowAlways = true;
+
             RefreshOffreSelectioned();
         }
 
-
         /// <summary>
-        /// Paramètrage du GroupBox 
+        /// Paramètrage du GroupBox ... 
+        /// Positionnement des filtres
         /// </summary>
         private void InitializeFiltre()
         {
-            filtres.Controls.Add(comboBoxRegion);
-
-            filtres.Controls.Add(comboBoxContrat);
-
-            filtres.Controls.Add(comboBoxPoste);
-
-            filtres.Controls.Add(dateTimePickerCreationStart);
-            dateTimePickerCreationStart.Location = new System.Drawing.Point(393, 13);
-            dateTimePickerCreationStart.TabIndex = 3;
-
-            filtres.Controls.Add(dateTimePickerCreationEnd);
-            dateTimePickerCreationEnd.Location = new System.Drawing.Point(599, 13);
-            dateTimePickerCreationEnd.TabIndex = TabIndex = 4; 
-
             MainLayout.Controls.Add(filtres, 0, 0);
             filtres.Size = new System.Drawing.Size(794, 50);
             filtres.Dock = DockStyle.Fill;
@@ -122,6 +117,58 @@ namespace IHM
             filtres.Text = "Filtres";
             filtres.BackColor = System.Drawing.Color.AntiqueWhite;
 
+            filtres.Controls.Add(comboBoxRegion);
+            toolTip.SetToolTip(this.comboBoxRegion, "Fitre par Région");
+
+            filtres.Controls.Add(comboBoxContrat);
+            toolTip.SetToolTip(this.comboBoxContrat, "Fitre par Contrat");
+
+            filtres.Controls.Add(comboBoxPoste);
+            toolTip.SetToolTip(this.comboBoxPoste, "Fitre par Poste");
+
+            filtres.Controls.Add(dateTimePickerCreationStart);
+            dateTimePickerCreationStart.Location = new System.Drawing.Point(392, 13);
+            dateTimePickerCreationStart.Size = new System.Drawing.Size(121, 24);
+            dateTimePickerCreationStart.TabIndex = 3;
+            toolTip.SetToolTip(this.dateTimePickerCreationStart, "Date de début");
+
+            filtres.Controls.Add(dateTimePickerCreationEnd);
+            dateTimePickerCreationEnd.Location = new System.Drawing.Point(519, 13);
+            dateTimePickerCreationEnd.Size = new System.Drawing.Size(121, 24);
+            dateTimePickerCreationEnd.TabIndex = TabIndex = 4;
+            toolTip.SetToolTip(this.dateTimePickerCreationEnd, "Date de fin");
+
+            filtres.Controls.Add(razMokett);
+            razMokett.Location = new System.Drawing.Point(645, 12);
+            razMokett.Size = new System.Drawing.Size(75, 23);
+            razMokett.TabIndex = 5;
+            razMokett.Text = "RAZ Filtres";
+            razMokett.UseVisualStyleBackColor = true;
+            razMokett.Click += new EventHandler(razMokett_Click);
+
+            filtres.Controls.Add(compteur);
+            compteur.Location = new System.Drawing.Point(780, 13);
+            compteur.Size = new System.Drawing.Size(20, 23);
+            //compteur.Dock = DockStyle.Right;
+            toolTip.SetToolTip(this.compteur, "Nombre d'offres");
+            //compteur.Text = dataGridViewOffre.RowCount.ToString();
+
+        }
+
+        /// <summary>
+        /// Réinitialisation des filtres
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void razMokett_Click(object sender, EventArgs e)
+        {
+            comboBoxRegion.SelectedIndex = 0;
+            comboBoxPoste.SelectedIndex = 0;
+            comboBoxContrat.SelectedIndex = 0;
+
+            ResetIntervalle();
+            InitialiseDateTimePickerCreation();
+            RefreshOffreSelectioned();
         }
 
         /// <summary>
@@ -130,7 +177,7 @@ namespace IHM
         private void RefreshSourceRegion()
         {
             List<Region> region = new List<Region>();
-            region.Add(new Region() { Id = null, Nom = "ALL" });
+            region.Add(new Region() { Id = null, Nom = "ALL - Regions" });
             region.AddRange(controller.GetRegion());
             regionSource.DataSource = region;
         }
@@ -141,7 +188,7 @@ namespace IHM
         private void RefreshSourceContrat()
         {
             List<Contrat> contrat = new List<Contrat>();
-            contrat.Add(new Contrat() { Id = null, Type = "ALL" });
+            contrat.Add(new Contrat() { Id = null, Type = "ALL - Contrats" });
             contrat.AddRange(controller.GetContrat());
             contratSource.DataSource = contrat;
         }
@@ -152,7 +199,7 @@ namespace IHM
         private void RefreshSourcePoste()
         {
             List<Poste> poste = new List<Poste>();
-            poste.Add(new Poste() { Id = null, Type = "ALL" });
+            poste.Add(new Poste() { Id = null, Type = "ALL - Poste" });
             poste.AddRange(controller.GetPoste());
             posteSource.DataSource = poste;
         }
@@ -160,13 +207,14 @@ namespace IHM
         public async void RefreshOffreSelectioned()
         {
 
-            BO.Region region = (Region)comboBoxRegion.SelectedItem;
+            Region region = (Region)comboBoxRegion.SelectedItem;
             Contrat contrat = (Contrat)comboBoxContrat.SelectedItem;
             Poste poste = (Poste)comboBoxPoste.SelectedItem;
             Intervalle intervalle = new Intervalle(dateTimePickerCreationStart.NullableValue(), dateTimePickerCreationEnd.NullableValue());
 
             // Fix Bug out of Range exception
             offreSource.DataSource = null;
+
             try
             {
             var t = controller.GetOffres(new FiltersOffreRequest(region, contrat, poste, intervalle));
@@ -175,6 +223,13 @@ namespace IHM
 
             }
             catch { }
+
+            if (dataGridViewOffre.RowCount > 0)
+            {
+            this.dataGridViewOffre.Columns["Id"].Visible = false;
+            }
+
+            compteur.Text = dataGridViewOffre.RowCount.ToString();
         }
 
         /// <summary>
@@ -192,7 +247,6 @@ namespace IHM
             comboBoxRegion.SelectedValueChanged += ComboBoxRegion_SelectedValueChanged;
         }
 
-
         /// <summary>
         /// Initialise le comboBox pour choisir les contrats
         /// </summary>
@@ -208,7 +262,6 @@ namespace IHM
             comboBoxContrat.SelectedValueChanged += ComboBoxContrat_SelectedValueChanged;
         }
 
-
         /// <summary>
         /// Initialise le comboBox pour choisir les postes
         /// </summary>
@@ -223,7 +276,6 @@ namespace IHM
 
             comboBoxPoste.SelectedValueChanged += ComboBoxPoste_SelectedValueChanged;
         }
-
 
         /// <summary>
         /// Initialise le DateTimePicker pour choisir la date de création de l'offre
@@ -294,7 +346,6 @@ namespace IHM
             dataGridViewOffre.AllowUserToResizeRows = false;
             dataGridViewOffre.MultiSelect = false;
 
-
         }
 
         /// <summary>
@@ -317,6 +368,8 @@ namespace IHM
 
         private void InitialiseDetailsOffre()
         {
+            MainLayout.Controls.Add(detailsOffre, 0, 2);
+
             detailsOffre.OffreChanged += DetailOffre_OffreChanged;
         }
 

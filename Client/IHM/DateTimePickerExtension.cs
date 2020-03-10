@@ -25,6 +25,7 @@ namespace IHM
             else
             {
                 dtp.Format = DateTimePickerFormat.Custom;
+
                 dtp.CustomFormat = " ";
             }
         }

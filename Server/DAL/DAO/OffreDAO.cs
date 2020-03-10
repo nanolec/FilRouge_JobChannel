@@ -92,7 +92,6 @@ namespace DAL.DAO
             /// <param name="OffreId">Identifiant unique</param>
             /// <remarks>Peut être nul si il n'existe pas en base de données</remarks>
             /// <returns>L'Offre en fonction de l'id passé en paramètre</returns>
-
         public Offre FindOffreByID(int OffreId)
         {
             DataSet dataSet = SQLManager.ExcecuteQuery("SELECT * FROM OFFRE WHERE ID = @ID", new List<SqlParameter>()

@@ -32,7 +32,7 @@ namespace BO
 
             this.Id = (columns.Contains("ID") && row["ID"] != DBNull.Value) ? (int?)row["ID"] : null;
             this.Type = (columns.Contains("TYPE") && row["TYPE"] != DBNull.Value) ? (string)row["TYPE"] : null;
-
+            
         }
 
         public override bool Equals(object obj)

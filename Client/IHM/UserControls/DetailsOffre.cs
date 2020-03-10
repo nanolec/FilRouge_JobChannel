@@ -58,35 +58,43 @@ namespace IHM.UserControls
             // Configuration
             this.Dock = DockStyle.Fill;
             this.AutoSize = true;
-            //
 
             this.Controls.Add(layout);
             layout.Dock = DockStyle.Fill;
             layout.ColumnCount = 2;
             layout.RowCount = 9;
 
-            Button buttonModifier = new Button() { Text = "MODIFIER" };
 
+            Button buttonModifier = new Button() { Text = "MODIFIER", Size = new Size(100, 23) };
             buttonModifier.Click += ButtonModifier_Click;
             buttonModifier.Dock = DockStyle.Right;
-            layout.Controls.Add(buttonModifier, 1, 7);
+            layout.Controls.Add(buttonModifier, 1, 6);
+
+            ButtonBase buttonSupprimer = new Button() { Text = "SUPPRIMER", Size = new Size(100, 23) };
+            buttonSupprimer.Click += ButtonSupprimer_Click;
+            buttonSupprimer.Dock = DockStyle.Left;
+            layout.Controls.Add(buttonSupprimer, 1, 7);
+        }
+
+        private void ButtonSupprimer_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void ButtonModifier_Click(object sender, EventArgs e)
         {
-            OffreChanged?.Invoke(this, Offre);
+            //OffreChanged?.Invoke(this, Offre);
         }
 
         private void InitializeForm()
         {
-            List<string> Labels = new List<string>() { "Titre", "Description", "Type de Poste", "Type de Contrat", "Date Publication", "Lien", "Région" };
+            List<string> Labels = new List<string>() { "Titre", "Description", "Région", "Type de Contrat", "Type de Poste", "Date Publication", "Lien" };
             int i = 0;
 
             foreach (string label in Labels)
             {
                 Label label_UI = new Label() { Text = label + " :" };
                 label_UI.Dock = DockStyle.Top;
-
 
                 Control control = new TextBox();
                 if (label == "Date Publication")
@@ -119,6 +127,7 @@ namespace IHM.UserControls
                 }
 
                 formControls.Add(label, control);
+                control.Dock = DockStyle.Fill;
                 layout.Controls.Add(label_UI, 0, i);
                 layout.Controls.Add(control, 1, i);
                 i++;
@@ -135,17 +144,15 @@ namespace IHM.UserControls
                     kp.Value.Enabled = true;
                 }
 
-                //"Titre", "Description", "Type de Poste", "Type de Contrat", "Date Publication", "Lien", "Région"
-
                 this.formControls["Titre"].Text = Offre.Titre;
                 this.formControls["Description"].Text = Offre.Description;
-                this.formControls["Type de Poste"].Text = Offre.Poste.Type;
+                this.formControls["Région"].Text = Offre.Region.Nom;
                 this.formControls["Type de Contrat"].Text = Offre.Contrat.Type;
+                this.formControls["Type de Poste"].Text = Offre.Poste.Type;
                 ((DateTimePicker)this.formControls["Date Publication"]).Value = Offre.Creation.Value;
                 this.formControls["Lien"].Text = Offre.Lien;
-                this.formControls["Région"].Text = Offre.Region.Nom;
 
-              //  ((ComboBox)this.formControls["Region"]).SelectedValue = Offre.Region.Nom;
+                //  ((ComboBox)this.formControls["Region"]).SelectedValue = Offre.Region.Nom;
             }
             else
             {
@@ -155,7 +162,7 @@ namespace IHM.UserControls
                     kp.Value.Enabled = false;
                 }
             }
-            this.formControls["Type de Poste"].Enabled = false;
+            //this.formControls["Type de Poste"].Enabled = false;
         }
     }
     

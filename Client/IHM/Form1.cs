@@ -1,11 +1,10 @@
-﻿using System;
+﻿using BLL_Client;
+using BO;
+using BO.DTO;
+using IHM.UserControls;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using BO;
-using BLL_Client;
-using IHM.UserControls;
-using BO.DTO;
-using System.Threading.Tasks;
 
 namespace IHM
 {
@@ -322,8 +321,6 @@ namespace IHM
             RefreshOffreSelectioned();
         }
 
-  
-
         /// <summary>
         /// Initialise la datagrid pour voir la liste des offres en fonction de la région choisi
         /// </summary>
@@ -369,14 +366,6 @@ namespace IHM
         private void InitialiseDetailsOffre()
         {
             MainLayout.Controls.Add(detailsOffre, 0, 2);
-
-            detailsOffre.OffreChanged += DetailOffre_OffreChanged;
         }
-
-        private void DetailOffre_OffreChanged(object sender, Offre e)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

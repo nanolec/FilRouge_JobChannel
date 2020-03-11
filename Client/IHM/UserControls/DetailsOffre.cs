@@ -1,22 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BLL_Client;
 using BO;
-using BLL_Client;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace IHM.UserControls
 {
+    public enum EModeDetailsOffre
+    {
+        READ_ONLY,
+        CREATION,
+        MODIFICATION
+    }
     public partial class DetailsOffre : UserControl
     {
+        public EModeDetailsOffre mode = EModeDetailsOffre.READ_ONLY;
+
         private TableLayoutPanel layout = new TableLayoutPanel();
+        private FlowLayoutPanel flowLayoutPanel = new FlowLayoutPanel();
+        private ButtonBase buttonSupprimer = new Button() { Text = "SUPPRIMER", Size = new Size(100, 23) };
+        private Button buttonModifier = new Button() { Text = "MODIFIER", Size = new Size(100, 23) };
+        private Button buttonADD = new Button() { Text = "AJOUTER", Size = new Size(100, 23) };
+
 
         public event EventHandler<Offre> OffreChanged;
+
+
 
         private Offre _Offre;
         public Offre Offre
@@ -25,7 +35,15 @@ namespace IHM.UserControls
             set
             {
                 this._Offre = value;
-                this.RefreshForm();
+                if (value == null && mode == EModeDetailsOffre.READ_ONLY)
+                    this.Enabled = false;
+                else
+                {
+                    this.RefreshForm();
+                    this.Enabled = true;
+                 }
+
+             
             }
         }
 
@@ -36,6 +54,44 @@ namespace IHM.UserControls
             InitializeComponent();
             Initialize();
             InitializeForm();
+            this.Enabled = false;
+        }
+
+        public DetailsOffre(Offre offreIn) : this()
+        {
+            if (offreIn == null)
+            {
+                mode = EModeDetailsOffre.CREATION;
+                Offre = offreIn;
+            }
+            else {
+                mode = EModeDetailsOffre.MODIFICATION;
+                Offre = offreIn;
+            }
+        }
+        protected override void OnParentChanged(EventArgs e)
+        {
+            base.OnParentChanged(e);
+
+            if (Parent == null) return;
+            switch(mode)
+            {
+                case EModeDetailsOffre.CREATION:
+                    ParentForm.Text = "Ajouter une offre";
+                    buttonSupprimer.Visible = false;
+
+                    break;
+                case EModeDetailsOffre.MODIFICATION:
+                    ParentForm.Text = "Modification de l'Offre";
+                    buttonADD.Visible = false;
+                    buttonSupprimer.Visible = false;
+
+
+                    break;
+            }
+            ParentForm.Size = new System.Drawing.Size(830, 260);
+            ParentForm.MinimumSize = new System.Drawing.Size(830, 260);
+
         }
 
         /// <summary>
@@ -64,26 +120,43 @@ namespace IHM.UserControls
             layout.ColumnCount = 2;
             layout.RowCount = 9;
 
+            layout.Controls.Add(flowLayoutPanel, 1, 9);
+            flowLayoutPanel.Dock = DockStyle.Fill;
 
-            Button buttonModifier = new Button() { Text = "MODIFIER", Size = new Size(100, 23) };
             buttonModifier.Click += ButtonModifier_Click;
-            buttonModifier.Dock = DockStyle.Right;
-            layout.Controls.Add(buttonModifier, 1, 6);
+            buttonModifier.TabIndex = 0;
+            flowLayoutPanel.Controls.Add(buttonModifier);
 
-            ButtonBase buttonSupprimer = new Button() { Text = "SUPPRIMER", Size = new Size(100, 23) };
+            buttonADD.Click += ButtonADD_Click;
+            buttonADD.TabIndex = 1;
+            flowLayoutPanel.Controls.Add(buttonADD);
+
             buttonSupprimer.Click += ButtonSupprimer_Click;
-            buttonSupprimer.Dock = DockStyle.Left;
-            layout.Controls.Add(buttonSupprimer, 1, 7);
+            flowLayoutPanel.Controls.Add(buttonSupprimer);
+
+        }
+
+        private void ButtonADD_Click(object sender, EventArgs e)
+        {
+            OpenPopup(null);
         }
 
         private void ButtonSupprimer_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            if (MessageBox.Show(Properties.Resources.MsgSup,
+                Properties.Resources.MsgTitre,
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+
+            }
         }
 
         private void ButtonModifier_Click(object sender, EventArgs e)
         {
-            //OffreChanged?.Invoke(this, Offre);
+            // Création de l'instance
+            OpenPopup(Offre);
         }
 
         private void InitializeForm()
@@ -109,7 +182,6 @@ namespace IHM.UserControls
                     ((ComboBox)control).DataSource = bs;
                     ((ComboBox)control).DisplayMember = "Name";
                     ((ComboBox)control).ValueMember = "Id";
-
                     if (label == "Type de Poste")
                     {
                         bs.DataSource = controller.GetPoste();
@@ -141,7 +213,8 @@ namespace IHM.UserControls
             {
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
-                    kp.Value.Enabled = true;
+                    if (mode != EModeDetailsOffre.READ_ONLY) kp.Value.Enabled = true;
+                    else kp.Value.Enabled = false;
                 }
 
                 this.formControls["Titre"].Text = Offre.Titre;
@@ -159,10 +232,21 @@ namespace IHM.UserControls
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
                     kp.Value.ResetText();
-                    kp.Value.Enabled = false;
                 }
             }
             //this.formControls["Type de Poste"].Enabled = false;
+        }
+
+        private void OpenPopup(Offre o)
+        {
+            using (Popup form2 = new Popup())
+            {
+                using (DetailsOffre details = new DetailsOffre(o))
+                {
+                    form2.MainLayout2.Controls.Add(details);
+                    form2.ShowDialog();
+                }
+            }
         }
     }
     

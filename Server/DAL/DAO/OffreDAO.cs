@@ -1,9 +1,9 @@
-﻿using System;
+﻿using BO;
+using BO.DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using BO;
-using BO.DTO;
 
 namespace DAL.DAO
 {

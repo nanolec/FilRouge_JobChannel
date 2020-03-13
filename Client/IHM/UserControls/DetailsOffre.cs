@@ -27,7 +27,6 @@ namespace IHM.UserControls
         public event EventHandler<Offre> OffreChanged;
 
 
-
         private Offre _Offre;
         public Offre Offre
         {
@@ -78,14 +77,16 @@ namespace IHM.UserControls
             {
                 case EModeDetailsOffre.CREATION:
                     ParentForm.Text = "Ajouter une offre";
+
                     buttonSupprimer.Visible = false;
+                    buttonModifier.Visible = false;
 
                     break;
                 case EModeDetailsOffre.MODIFICATION:
                     ParentForm.Text = "Modification de l'Offre";
+
                     buttonADD.Visible = false;
                     buttonSupprimer.Visible = false;
-
 
                     break;
             }
@@ -138,7 +139,24 @@ namespace IHM.UserControls
 
         private void ButtonADD_Click(object sender, EventArgs e)
         {
-            OpenPopup(null);
+            if (mode == EModeDetailsOffre.READ_ONLY)
+            {
+                OpenPopup(null);
+            }
+            else
+            {
+                if (MessageBox.Show(Properties.Resources.MsgAdd,
+                Properties.Resources.MsgTitre,
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                {
+                    if (true)
+                    {
+
+                    }
+                }
+            }
         }
 
         private void ButtonSupprimer_Click(object sender, EventArgs e)
@@ -155,8 +173,21 @@ namespace IHM.UserControls
 
         private void ButtonModifier_Click(object sender, EventArgs e)
         {
-            // Création de l'instance
-            OpenPopup(Offre);
+            if (mode == EModeDetailsOffre.READ_ONLY)
+            {
+                OpenPopup(Offre);
+            }
+            else
+            {
+                if (MessageBox.Show(Properties.Resources.MsgModif,
+                Properties.Resources.MsgTitre,
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                {
+
+                }   
+            }
         }
 
         private void InitializeForm()

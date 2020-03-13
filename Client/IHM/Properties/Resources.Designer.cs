@@ -61,6 +61,24 @@ namespace IHM.Properties {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Voulez vous ajouter cet enregistrement ?.
+        /// </summary>
+        internal static string MsgAdd {
+            get {
+                return ResourceManager.GetString("MsgAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Voulez vous modifier cet enregistrement ?.
+        /// </summary>
+        internal static string MsgModif {
+            get {
+                return ResourceManager.GetString("MsgModif", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Voulez vous supprimer cet enregistrement ?.
         /// </summary>
         internal static string MsgSup {

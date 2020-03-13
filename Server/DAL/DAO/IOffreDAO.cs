@@ -12,6 +12,6 @@ namespace DAL.DAO
         List<Offre> GetOffresByPosteId(int PosteId);
         List<Offre> GetOffresByRegionId(int RegionId);
         List<Offre> GetAllOffres(FiltersOffreRequest filtre);
-        Offre FindOffreByDate(object v);
+        Offre InsertOffre(Offre offre);
     }
 }

@@ -197,9 +197,36 @@ namespace DAL.DAO
             return null;
         }
 
-        public Offre FindOffreByDate(object v)
+        public Offre InsertOffre( Offre offre)
         {
-            throw new NotImplementedException();
+            var id = new SqlParameter("@ID", SqlDbType.Int);
+            id.Direction = ParameterDirection.Output;
+            id.Value = 0;
+
+            int i = SQLManager.ExecuteNonQuery(@"INSERT INTO OFFRE(POS_ID, CON_ID, REG_ID, TITRE, DESCRIPTION, LIEN, CREATION, MODIF )   VALUES  (@POS_ID,  @CON_ID, @REG_ID,
+                                                        @TITRE, @DESCRIPTION, @LIEN, @CREATION, @MODIF); SET @ID = SCOPE_IDENTITY();"
+
+, new List<SqlParameter>() 
+             {
+                id,
+                new SqlParameter("@POS_ID", offre.Poste.Id),
+                new SqlParameter("@CON_ID", offre.Contrat.Id),
+                new SqlParameter("@REG_ID", offre.Region.Id),
+                new SqlParameter("@TITRE", offre.Titre),
+                new SqlParameter("@DESCRIPTION", offre.Description),
+                new SqlParameter("@LIEN", offre.Lien),
+                new SqlParameter("@CREATION", DateTime.Now),
+                new SqlParameter("@MODIF", DBNull.Value),
+
+               });
+
+            if (i > 0)
+            {
+                return FindOffreByID((int)id.Value);
+            }
+            else { 
+            return null;
+            }
         }
     }
 }

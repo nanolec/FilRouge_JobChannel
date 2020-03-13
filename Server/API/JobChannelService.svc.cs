@@ -81,5 +81,9 @@ namespace API
             return controllerS.GetRegion();
         }
 
+        public Offre InsertOffre(Offre offre)
+        {
+            return controllerS.InsertOffre(offre);
+        }
     }
 }

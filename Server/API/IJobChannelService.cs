@@ -23,6 +23,10 @@ namespace API
         [WebInvoke(UriTemplate ="offresFiltrer",Method ="POST", ResponseFormat = WebMessageFormat.Json)]
         List<Offre> GetOffresFiltrer(FiltersOffreRequest filtre);
 
+        [OperationContract]
+        [WebInvoke(UriTemplate = "offres", Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+        Offre InsertOffre(Offre offre);
+
         //[OperationContract]
         //[WebInvoke(UriTemplate = "offres?idContrat={idContrat}", Method = "GET", ResponseFormat = WebMessageFormat.Json)]
         //List<Offre> GetOffresByContratId(string idContrat);

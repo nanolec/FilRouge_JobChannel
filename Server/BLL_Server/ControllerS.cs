@@ -53,5 +53,10 @@ namespace BLL_Server
         {
             return ConfigDAL.regionDAO.GetAllRegions();
         }
+
+        public Offre InsertOffre(Offre offre)
+        {
+            return ConfigDAL.offreDAO.InsertOffre(offre);
+        }
     }
 }

@@ -197,7 +197,7 @@ namespace DAL.DAO
             return null;
         }
 
-        public Offre InsertOffre( Offre offre)
+        public int InsertOffre( Offre offre)
         {
             var id = new SqlParameter("@ID", SqlDbType.Int);
             id.Direction = ParameterDirection.Output;
@@ -206,7 +206,7 @@ namespace DAL.DAO
             int i = SQLManager.ExecuteNonQuery(@"INSERT INTO OFFRE(POS_ID, CON_ID, REG_ID, TITRE, DESCRIPTION, LIEN, CREATION, MODIF )   VALUES  (@POS_ID,  @CON_ID, @REG_ID,
                                                         @TITRE, @DESCRIPTION, @LIEN, @CREATION, @MODIF); SET @ID = SCOPE_IDENTITY();"
 
-, new List<SqlParameter>() 
+            , new List<SqlParameter>() 
              {
                 id,
                 new SqlParameter("@POS_ID", offre.Poste.Id),
@@ -219,14 +219,47 @@ namespace DAL.DAO
                 new SqlParameter("@MODIF", DBNull.Value),
 
                });
+            return i;
+        }
 
-            if (i > 0)
-            {
-                return FindOffreByID((int)id.Value);
-            }
-            else { 
-            return null;
-            }
+        public int UpdateOffre(Offre offre)
+        {
+            int i = SQLManager.ExecuteNonQuery(@"UPDATE OFFRE SET POS_ID = @POS_ID, 
+                                                                  CON_ID = @CON_ID, 
+                                                                  REG_ID = @REG_ID, 
+                                                                  TITRE = @TITRE, 
+                                                                  DESCRIPTION = @DESCRIPTION, 
+                                                                  LIEN = @LIEN, 
+                                                                  MODIF = @MODIF
+                                                 WHERE ID = @ID;"
+
+            , new List<SqlParameter>()
+             {
+                new SqlParameter("@ID", offre.Id),
+                new SqlParameter("@POS_ID", offre.Poste.Id),
+                new SqlParameter("@CON_ID", offre.Contrat.Id),
+                new SqlParameter("@REG_ID", offre.Region.Id),
+                new SqlParameter("@TITRE", offre.Titre),
+                new SqlParameter("@DESCRIPTION", offre.Description),
+                new SqlParameter("@LIEN", offre.Lien),
+                new SqlParameter("@MODIF", DateTime.Now),
+ 
+               });
+            return i;
+        }
+
+        /// <summary>
+        /// Supprime une offre en fonction de son identifiant
+        /// </summary>
+        /// <param name="offre"></param>
+        /// <returns></returns>
+        public int DeleteOffre(Offre offre)
+        {
+            int retour = SQLManager.ExecuteNonQuery("DELETE FROM OFFRE WHERE ID = @ID", new List<SqlParameter>()
+         {
+            new SqlParameter("@ID", offre.Id)
+         });
+            return retour;
         }
     }
 }

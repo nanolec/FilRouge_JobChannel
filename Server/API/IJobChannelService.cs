@@ -25,7 +25,15 @@ namespace API
 
         [OperationContract]
         [WebInvoke(UriTemplate = "offres", Method = "POST", ResponseFormat = WebMessageFormat.Json)]
-        Offre InsertOffre(Offre offre);
+        int InsertOffre(Offre offre);
+
+        [OperationContract]
+        [WebInvoke(UriTemplate = "offres", Method = "DELETE", ResponseFormat = WebMessageFormat.Json)]
+        int DeleteOffre(Offre offre);
+
+        [OperationContract]
+        [WebInvoke(UriTemplate = "offres", Method = "PUT", ResponseFormat = WebMessageFormat.Json)]
+        int UpdateOffre(Offre offre);
 
         //[OperationContract]
         //[WebInvoke(UriTemplate = "offres?idContrat={idContrat}", Method = "GET", ResponseFormat = WebMessageFormat.Json)]

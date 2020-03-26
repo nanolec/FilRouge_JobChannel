@@ -81,9 +81,19 @@ namespace API
             return controllerS.GetRegion();
         }
 
-        public Offre InsertOffre(Offre offre)
+        public int InsertOffre(Offre offre)
         {
-            return controllerS.InsertOffre(offre);
+            return (offre != null ? controllerS.InsertOffre(offre) : 0);
+        }
+
+        public int DeleteOffre(Offre offre)
+        {
+            return (offre != null ? controllerS.DeleteOffre(offre) : 0);
+        }
+
+        public int UpdateOffre(Offre offre)
+        {
+            return (offre != null ? controllerS.UpdateOffre(offre) : 0);
         }
     }
 }

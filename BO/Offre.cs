@@ -53,6 +53,8 @@ namespace BO
 
         public Offre() { }
 
+        public Offre(int? id) { id = Id; }
+
         public Offre(int id, Poste poste, Contrat contrat, Region region, string titre, string description, string lien, DateTime creation, DateTime modif)
         {
             Id = id;

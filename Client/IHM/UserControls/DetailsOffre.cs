@@ -23,11 +23,13 @@ namespace IHM.UserControls
         private Button buttonModifier = new Button() { Text = "MODIFIER", Size = new Size(100, 23) };
         private Button buttonADD = new Button() { Text = "AJOUTER", Size = new Size(100, 23) };
 
+        private ControllerC controller = new ControllerC();
 
         public event EventHandler<Offre> OffreChanged;
 
 
         private Offre _Offre;
+
         public Offre Offre
         {
             get { return this._Offre; }
@@ -41,8 +43,6 @@ namespace IHM.UserControls
                     this.RefreshForm();
                     this.Enabled = true;
                  }
-
-             
             }
         }
 
@@ -108,8 +108,6 @@ namespace IHM.UserControls
             }
         }
 
-        private ControllerC controller = new ControllerC();
-
         private void Initialize()
         {
             // Configuration
@@ -153,21 +151,10 @@ namespace IHM.UserControls
                 {
                     if (true)
                     {
+                        Offre f = new Offre();
 
                     }
                 }
-            }
-        }
-
-        private void ButtonSupprimer_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show(Properties.Resources.MsgSup,
-                Properties.Resources.MsgTitre,
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning,
-                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
-            {
-
             }
         }
 
@@ -185,8 +172,37 @@ namespace IHM.UserControls
                 MessageBoxIcon.Warning,
                 MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 {
+                    if (true)
+                    {
 
+                    } 
                 }   
+            }
+        }
+
+        private void ButtonSupprimer_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(Properties.Resources.MsgSup,
+                Properties.Resources.MsgTitre,
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+            {
+                if (true)
+                {
+                    Offre f = new Offre(Offre.Id);
+
+                    int result = controller.DeleteOffre(f);
+
+                    if (result == 1)
+                    {
+                        MessageBox.Show($"{result} offre a été supprimée");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Aucune offre n'a été supprimée");
+                    }
+                }
             }
         }
 

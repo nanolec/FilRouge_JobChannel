@@ -125,6 +125,7 @@ namespace BLL_Client
             }
             return listContrat;
         }
+
         public List<Region> GetRegion()
         {
             List<Region> listRegion = null;
@@ -136,6 +137,54 @@ namespace BLL_Client
                 listRegion = restResponse.Data;
             }
             return listRegion;
+        }
+
+        public int DeleteOffre(Offre offre)
+        {
+            int result = 0;
+            RestRequest requete = new RestRequest("offres", Method.DELETE);
+            requete.AddJsonBody(ParseJson(offre));
+            IRestResponse<int> retour = objClient.Execute<int>(requete);
+
+            if (retour.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                result = retour.Data;
+                return result;
+            }
+            result = -1;
+            return result;
+        }
+
+        public int UpdateOffre(Offre offre)
+        {
+            int result = 0;
+            RestRequest requete = new RestRequest("offres", Method.PUT);
+            requete.AddJsonBody(ParseJson(offre));
+            IRestResponse<int> retour = objClient.Execute<int>(requete);
+
+            if (retour.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                result = retour.Data;
+                return result;
+            }
+            result = -1;
+            return result;
+        }
+
+        public int InsertOffre(Offre offre)
+        {
+            int result = 0;
+            RestRequest requete = new RestRequest("offres", Method.POST);
+            requete.AddJsonBody(ParseJson(offre));
+            IRestResponse<int> retour = objClient.Execute<int>(requete);
+
+            if (retour.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                result = retour.Data;
+                return result;
+            }
+            result = -1;
+            return result;
         }
     }
 }

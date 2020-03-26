@@ -54,9 +54,19 @@ namespace BLL_Server
             return ConfigDAL.regionDAO.GetAllRegions();
         }
 
-        public Offre InsertOffre(Offre offre)
+        public int InsertOffre(Offre offre)
         {
             return ConfigDAL.offreDAO.InsertOffre(offre);
+        }
+
+        public int DeleteOffre(Offre offre)
+        {
+            return ConfigDAL.offreDAO.DeleteOffre(offre);
+        }
+
+        public int UpdateOffre(Offre offre)
+        {
+            return ConfigDAL.offreDAO.UpdateOffre(offre);
         }
     }
 }

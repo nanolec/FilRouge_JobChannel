@@ -59,9 +59,9 @@ namespace BLL_Server
             return ConfigDAL.offreDAO.InsertOffre(offre);
         }
 
-        public int DeleteOffre(Offre offre)
+        public int DeleteOffre(int idOffre)
         {
-            return ConfigDAL.offreDAO.DeleteOffre(offre);
+            return ConfigDAL.offreDAO.DeleteOffre(idOffre);
         }
 
         public int UpdateOffre(Offre offre)

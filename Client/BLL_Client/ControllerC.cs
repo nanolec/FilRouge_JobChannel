@@ -139,11 +139,10 @@ namespace BLL_Client
             return listRegion;
         }
 
-        public int DeleteOffre(Offre offre)
+        public int DeleteOffre(int? idOffre)
         {
             int result = 0;
-            RestRequest requete = new RestRequest("offres", Method.DELETE);
-            requete.AddJsonBody(ParseJson(offre));
+            RestRequest requete = new RestRequest($"offres/{idOffre}", Method.DELETE);
             IRestResponse<int> retour = objClient.Execute<int>(requete);
 
             if (retour.StatusCode == System.Net.HttpStatusCode.OK)

@@ -190,9 +190,8 @@ namespace IHM.UserControls
             {
                 if (true)
                 {
-                    Offre f = new Offre(Offre.Id);
 
-                    int result = controller.DeleteOffre(f);
+                    int result = controller.DeleteOffre(Offre.Id);
 
                     if (result == 1)
                     {

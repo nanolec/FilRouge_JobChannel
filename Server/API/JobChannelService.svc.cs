@@ -86,9 +86,11 @@ namespace API
             return (offre != null ? controllerS.InsertOffre(offre) : 0);
         }
 
-        public int DeleteOffre(Offre offre)
+        public int DeleteOffre(string IdOffre)
         {
-            return (offre != null ? controllerS.DeleteOffre(offre) : 0);
+            int idOffre = -1;
+            int.TryParse(IdOffre, out idOffre);
+            return (idOffre != -1 ? controllerS.DeleteOffre(idOffre) : 0);
         }
 
         public int UpdateOffre(Offre offre)

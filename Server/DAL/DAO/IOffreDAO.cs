@@ -14,6 +14,6 @@ namespace DAL.DAO
         List<Offre> GetAllOffres(FiltersOffreRequest filtre);
         int InsertOffre(Offre offre);
         int UpdateOffre(Offre offre);
-        int DeleteOffre(Offre offre);
+        int DeleteOffre(int idOffre);
     }
 }

@@ -253,11 +253,11 @@ namespace DAL.DAO
         /// </summary>
         /// <param name="offre"></param>
         /// <returns></returns>
-        public int DeleteOffre(Offre offre)
+        public int DeleteOffre(int IdOffre)
         {
             int retour = SQLManager.ExecuteNonQuery("DELETE FROM OFFRE WHERE ID = @ID", new List<SqlParameter>()
          {
-            new SqlParameter("@ID", offre.Id)
+            new SqlParameter("@ID", IdOffre)
          });
             return retour;
         }

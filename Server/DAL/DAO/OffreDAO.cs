@@ -197,7 +197,7 @@ namespace DAL.DAO
             return null;
         }
 
-        public int InsertOffre( Offre offre)
+        public int InsertOffre(Offre offre)
         {
             var id = new SqlParameter("@ID", SqlDbType.Int);
             id.Direction = ParameterDirection.Output;

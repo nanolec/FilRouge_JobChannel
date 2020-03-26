@@ -205,7 +205,6 @@ namespace IHM
 
         public async void RefreshOffreSelectioned()
         {
-
             Region region = (Region)comboBoxRegion.SelectedItem;
             Contrat contrat = (Contrat)comboBoxContrat.SelectedItem;
             Poste poste = (Poste)comboBoxPoste.SelectedItem;

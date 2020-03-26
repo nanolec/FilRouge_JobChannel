@@ -1,5 +1,6 @@
 ﻿using BLL_Client;
 using BO;
+using BO.DTO;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -24,6 +25,7 @@ namespace IHM.UserControls
         private Button buttonADD = new Button() { Text = "AJOUTER", Size = new Size(100, 23) };
 
         private ControllerC controller = new ControllerC();
+        private Popup form2 = new Popup();
 
         public event EventHandler<Offre> OffreChanged;
 
@@ -95,6 +97,54 @@ namespace IHM.UserControls
 
         }
 
+        private void InitializeForm()
+        {
+            List<string> Labels = new List<string>() { "Titre", "Description", "Région", "Type de Contrat", "Type de Poste", "Date Publication", "Lien" };
+            int i = 0;
+
+            foreach (string label in Labels)
+            {
+                Label label_UI = new Label() { Text = label + " :" };
+                label_UI.Dock = DockStyle.Top;
+
+                Control control = new TextBox();
+                if (label == "Date Publication")
+                {
+                    control = new DateTimePicker();
+                }
+                else if (label == "Type de Poste" || label == "Type de Contrat" || label == "Région")
+                {
+                    BindingSource bs = new BindingSource();
+
+                    control = new ComboBox();
+                    ((ComboBox)control).DataSource = bs;
+                    ((ComboBox)control).DisplayMember = "Name";
+                    ((ComboBox)control).ValueMember = "Id";
+                    if (label == "Type de Poste")
+                    {
+                        bs.DataSource = controller.GetPoste();
+                    }
+                    else if (label == "Type de Contrat")
+                    {
+                        bs.DataSource = controller.GetContrat();
+                    }
+                    else if (label == "Région")
+                    {
+                        bs.DataSource = controller.GetRegion();
+                    }
+                    else
+                        bs.DataSource = controller.GetOffres();
+                }
+
+                formControls.Add(label, control);
+                control.Dock = DockStyle.Fill;
+                layout.Controls.Add(label_UI, 0, i);
+                layout.Controls.Add(control, 1, i);
+                i++;
+
+            }
+        }
+
         /// <summary>
         /// Active le double buffer
         /// </summary>
@@ -151,8 +201,28 @@ namespace IHM.UserControls
                 {
                     if (true)
                     {
-                        Offre f = new Offre();
+                        string titre = ((TextBox)formControls["Titre"]).Text;
+                        string description = ((TextBox)formControls["Description"]).Text;
+                        Poste poste = (Poste)((ComboBox)formControls["Type de Poste"]).SelectedItem;
+                        Contrat contrat = (Contrat)((ComboBox)formControls["Type de Contrat"]).SelectedItem;
+                        BO.Region region = (BO.Region)((ComboBox)formControls["Région"]).SelectedItem;
+                        DateTime creation = (DateTime)((DateTimePicker)formControls["Date Publication"]).Value;
+                        string lien = ((TextBox)formControls["Lien"]).Text;
 
+
+                        Offre offre = new Offre(titre, description, poste, contrat, region, creation, lien );
+                        int result = controller.InsertOffre(offre);
+
+                        if (result == 1)
+                        {
+                            MessageBox.Show($"{result} offre a été ajoutée");
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Aucune offre n'a été ajoutée");
+                        }
+                    form2.Close();
                     }
                 }
             }
@@ -175,7 +245,7 @@ namespace IHM.UserControls
                     if (true)
                     {
 
-                    } 
+                    }
                 }   
             }
         }
@@ -190,7 +260,6 @@ namespace IHM.UserControls
             {
                 if (true)
                 {
-
                     int result = controller.DeleteOffre(Offre.Id);
 
                     if (result == 1)
@@ -201,55 +270,10 @@ namespace IHM.UserControls
                     {
                         MessageBox.Show("Aucune offre n'a été supprimée");
                     }
+
+                    //TODO a tester !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                    //RefreshForm();
                 }
-            }
-        }
-
-        private void InitializeForm()
-        {
-            List<string> Labels = new List<string>() { "Titre", "Description", "Région", "Type de Contrat", "Type de Poste", "Date Publication", "Lien" };
-            int i = 0;
-
-            foreach (string label in Labels)
-            {
-                Label label_UI = new Label() { Text = label + " :" };
-                label_UI.Dock = DockStyle.Top;
-
-                Control control = new TextBox();
-                if (label == "Date Publication")
-                {
-                    control = new DateTimePicker();
-                }
-                else if (label == "Type de Poste" || label == "Type de Contrat" || label == "Région")
-                {
-                    BindingSource bs = new BindingSource();
-
-                    control = new ComboBox();
-                    ((ComboBox)control).DataSource = bs;
-                    ((ComboBox)control).DisplayMember = "Name";
-                    ((ComboBox)control).ValueMember = "Id";
-                    if (label == "Type de Poste")
-                    {
-                        bs.DataSource = controller.GetPoste();
-                    }
-                    else if (label == "Type de Contrat")
-                    {
-                        bs.DataSource = controller.GetContrat();
-                    }
-                    else if (label == "Région")
-                    {
-                        bs.DataSource = controller.GetRegion();
-                    }
-                    else
-                        bs.DataSource = controller.GetOffres();
-                }
-
-                formControls.Add(label, control);
-                control.Dock = DockStyle.Fill;
-                layout.Controls.Add(label_UI, 0, i);
-                layout.Controls.Add(control, 1, i);
-                i++;
-
             }
         }
 
@@ -285,7 +309,7 @@ namespace IHM.UserControls
 
         private void OpenPopup(Offre o)
         {
-            using (Popup form2 = new Popup())
+            using (form2)
             {
                 using (DetailsOffre details = new DetailsOffre(o))
                 {

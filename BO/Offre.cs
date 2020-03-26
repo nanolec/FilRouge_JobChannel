@@ -53,7 +53,7 @@ namespace BO
 
         public Offre() { }
 
-        public Offre(int? id) { id = Id; }
+        //public Offre(int? id) { id = Id; }
 
         public Offre(int id, Poste poste, Contrat contrat, Region region, string titre, string description, string lien, DateTime creation, DateTime modif)
         {
@@ -82,6 +82,17 @@ namespace BO
             this.Creation = (columns.Contains("CREATION") && row["CREATION"] != DBNull.Value) ? (DateTime?)row["CREATION"] :null;
             this.Modif = (columns.Contains("MODIF") && row["MODIF"] != DBNull.Value) ? (DateTime?)row["MODIF"] : null;
 
+        }
+
+        public Offre(string titre, string description, Poste poste, Contrat contrat, Region region, DateTime creation, string lien)
+        {
+            Titre = titre;
+            Description = description;
+            Poste = poste;
+            Contrat = contrat;
+            Region = region;
+            Creation = creation;
+            Lien = lien;
         }
 
         public override bool Equals(object obj)

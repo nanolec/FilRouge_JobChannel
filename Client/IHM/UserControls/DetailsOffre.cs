@@ -1,6 +1,5 @@
 ﻿using BLL_Client;
 using BO;
-using BO.DTO;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -28,7 +27,7 @@ namespace IHM.UserControls
         private Popup form2 = new Popup();
 
         public event EventHandler<Offre> OffreChanged;
-
+        public event EventHandler RefreshListEvent;
 
         private Offre _Offre;
 
@@ -216,13 +215,12 @@ namespace IHM.UserControls
                         if (result == 1)
                         {
                             MessageBox.Show($"{result} offre a été ajoutée");
-
                         }
                         else
                         {
                             MessageBox.Show("Aucune offre n'a été ajoutée");
                         }
-                    form2.Close();
+                        this.ParentForm.Close();
                     }
                 }
             }
@@ -244,7 +242,27 @@ namespace IHM.UserControls
                 {
                     if (true)
                     {
+                        int? id = Offre.Id;
+                        string titre = ((TextBox)formControls["Titre"]).Text;
+                        string description = ((TextBox)formControls["Description"]).Text;
+                        Poste poste = (Poste)((ComboBox)formControls["Type de Poste"]).SelectedItem;
+                        Contrat contrat = (Contrat)((ComboBox)formControls["Type de Contrat"]).SelectedItem;
+                        BO.Region region = (BO.Region)((ComboBox)formControls["Région"]).SelectedItem;
+                        DateTime creation = (DateTime)((DateTimePicker)formControls["Date Publication"]).Value;
+                        string lien = ((TextBox)formControls["Lien"]).Text;
 
+                        Offre offre = new Offre(id, poste, contrat, region, titre, description, creation, lien);
+                        int result = controller.UpdateOffre(offre);
+
+                        if (result == 1)
+                        {
+                            MessageBox.Show($"{result} offre a été modifiéé");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Aucune offre n'a été modifiée");
+                        }
+                        this.ParentForm.Close();
                     }
                 }   
             }
@@ -270,9 +288,7 @@ namespace IHM.UserControls
                     {
                         MessageBox.Show("Aucune offre n'a été supprimée");
                     }
-
-                    //TODO a tester !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                    //RefreshForm();
+                cl
                 }
             }
         }
@@ -314,9 +330,15 @@ namespace IHM.UserControls
                 using (DetailsOffre details = new DetailsOffre(o))
                 {
                     form2.MainLayout2.Controls.Add(details);
+                    form2.FormClosed += Form2_FormClosed;
                     form2.ShowDialog();
                 }
             }
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            RefreshListEvent(this , new EventArgs());
         }
     }
     

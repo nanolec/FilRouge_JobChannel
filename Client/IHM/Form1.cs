@@ -87,6 +87,7 @@ namespace IHM
 
             //InitDetails
             InitialiseDetailsOffre();
+            detailsOffre.RefreshListEvent += DetailsOffre_RefreshListEvent;
 
             this.Text = "Liste des Offres";
             this.MinimumSize = new System.Drawing.Size(830, 500);
@@ -98,6 +99,11 @@ namespace IHM
             // Force the ToolTip text to be displayed whether or not the form is active.
             toolTip.ShowAlways = true;
 
+            RefreshOffreSelectioned();
+        }
+
+        private void DetailsOffre_RefreshListEvent(object sender, EventArgs e)
+        {
             RefreshOffreSelectioned();
         }
 
@@ -226,7 +232,6 @@ namespace IHM
             {
             this.dataGridViewOffre.Columns["Id"].Visible = false;
             }
-
             compteur.Text = dataGridViewOffre.RowCount.ToString();
         }
 

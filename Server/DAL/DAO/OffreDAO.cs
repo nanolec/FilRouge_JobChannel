@@ -230,19 +230,21 @@ namespace DAL.DAO
                                                                   TITRE = @TITRE, 
                                                                   DESCRIPTION = @DESCRIPTION, 
                                                                   LIEN = @LIEN, 
+                                                                  CREATION = @CREATION,
                                                                   MODIF = @MODIF
                                                  WHERE ID = @ID;"
 
             , new List<SqlParameter>()
              {
-                new SqlParameter("@ID", offre.Id),
                 new SqlParameter("@POS_ID", offre.Poste.Id),
                 new SqlParameter("@CON_ID", offre.Contrat.Id),
                 new SqlParameter("@REG_ID", offre.Region.Id),
                 new SqlParameter("@TITRE", offre.Titre),
                 new SqlParameter("@DESCRIPTION", offre.Description),
                 new SqlParameter("@LIEN", offre.Lien),
+                new SqlParameter("@CREATION", offre.Creation),
                 new SqlParameter("@MODIF", DateTime.Now),
+                new SqlParameter("@ID", offre.Id),
  
                });
             return i;

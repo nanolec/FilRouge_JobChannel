@@ -95,6 +95,29 @@ namespace BO
             Lien = lien;
         }
 
+        /// <summary>
+        /// Pour Update
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="titre"></param>
+        /// <param name="description"></param>
+        /// <param name="poste"></param>
+        /// <param name="contrat"></param>
+        /// <param name="region"></param>
+        /// <param name="creation"></param>
+        /// <param name="lien"></param>
+        public Offre(int? id, Poste poste, Contrat contrat, Region region, string titre, string description, DateTime creation, string lien)
+        {
+            Id = id;
+            Poste = poste;
+            Contrat = contrat;
+            Region = region;
+            Titre = titre;
+            Description = description;
+            Creation = creation;
+            Lien = lien;
+        }
+
         public override bool Equals(object obj)
         {
             var item = obj as Offre;

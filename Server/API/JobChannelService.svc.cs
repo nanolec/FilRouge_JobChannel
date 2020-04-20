@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.Text;
+﻿using System.Collections.Generic;
 using BLL_Server;
 using BO;
 using BO.DTO;
@@ -34,23 +29,23 @@ namespace API
             }
         }
 
-        public List<Offre> GetOffresByContratId(string idContrat)
-        {
-            if (idContrat != null)
-            {
-            return controllerS.GetOffresByContratId(int.Parse(idContrat));
-            }
-            return controllerS.GetOffresByContratId(-1);
-        }
+        //public List<Offre> GetOffresByContratId(string idContrat)
+        //{
+        //    if (idContrat != null)
+        //    {
+        //    return controllerS.GetOffresByContratId(int.Parse(idContrat));
+        //    }
+        //    return controllerS.GetOffresByContratId(-1);
+        //}
 
-        public List<Offre> GetOffresByRegionId(string idRegion)
-        {
-            if (idRegion != null)
-            {
-                return controllerS.GetOffresByRegionId(int.Parse(idRegion));
-            }
-            return controllerS.GetOffresByRegionId(-1);
-        }
+        //public List<Offre> GetOffresByRegionId(string idRegion)
+        //{
+        //    if (idRegion != null)
+        //    {
+        //        return controllerS.GetOffresByRegionId(int.Parse(idRegion));
+        //    }
+        //    return controllerS.GetOffresByRegionId(-1);
+        //}
 
         public List<Utilisateur> GetUtilisateurs()
         {

@@ -17,7 +17,6 @@ namespace BO.DTO
             Start = start;
             End = end;
         }
-
     }
 
     [DataContract]

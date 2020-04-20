@@ -3,10 +3,6 @@ using BO.DTO;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Collections.Generic;
-using System;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
 
 namespace API
 {

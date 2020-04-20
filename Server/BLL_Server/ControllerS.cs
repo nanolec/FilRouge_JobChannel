@@ -1,14 +1,16 @@
 ﻿using BO;
-using System.Collections.Generic;
-using DAL.Configuration;
 using BO.DTO;
-using System;
+using DAL.Configuration;
+using System.Collections.Generic;
 
 namespace BLL_Server
 {
+    /// <summary>
+    /// Regroupe les méthodes de classes
+    /// </summary>
+   
     public class ControllerS
     {
-
         public List<Offre> GetOffres()
         {
             return ConfigDAL.offreDAO.GetAllOffres();

@@ -24,7 +24,7 @@ namespace IHM.UserControls
         private Button buttonADD = new Button() { Text = "AJOUTER", Size = new Size(100, 23) };
 
         private ControllerC controller = new ControllerC();
-        private Popup form2 = new Popup();
+        private Popup form2;
 
         public event EventHandler<Offre> OffreChanged;
         public event EventHandler RefreshListEvent;
@@ -133,6 +133,10 @@ namespace IHM.UserControls
                     }
                     else
                         bs.DataSource = controller.GetOffres();
+
+                    //((ComboBox)control).SelectedText = null;
+                    //((ComboBox)control).SelectionLength = 0;
+                    //((ComboBox)control).
                 }
 
                 formControls.Add(label, control);
@@ -288,7 +292,7 @@ namespace IHM.UserControls
                     {
                         MessageBox.Show("Aucune offre n'a été supprimée");
                     }
-                cl
+                RefreshListEvent(this, new EventArgs());
                 }
             }
         }
@@ -300,7 +304,13 @@ namespace IHM.UserControls
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
                     if (mode != EModeDetailsOffre.READ_ONLY) kp.Value.Enabled = true;
-                    else kp.Value.Enabled = false;
+                    else { 
+                        kp.Value.Enabled = false;
+                        if (kp.Value is ComboBox)
+                        {
+                            ((ComboBox)kp.Value).SelectedText = null;
+                        }
+                    }
                 }
 
                 this.formControls["Titre"].Text = Offre.Titre;
@@ -318,6 +328,10 @@ namespace IHM.UserControls
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
                     kp.Value.ResetText();
+                    if (kp.Value is ComboBox)
+                    {
+                        ((ComboBox)kp.Value).SelectedText = null;
+                    }
                 }
             }
             //this.formControls["Type de Poste"].Enabled = false;
@@ -325,7 +339,7 @@ namespace IHM.UserControls
 
         private void OpenPopup(Offre o)
         {
-            using (form2)
+            using (form2 = new Popup())
             {
                 using (DetailsOffre details = new DetailsOffre(o))
                 {

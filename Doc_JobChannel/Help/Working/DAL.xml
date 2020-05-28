@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAL</name>
+    </assembly>
+    <members>
+        <member name="F:DAL.Configuration.ConfigDAL.sQLManager">
+            <summary>
+            Mangager SQL
+            </summary>
+        </member>
+        <member name="T:DAL.DAO.OffreDAO">
+            <summary>
+            Représente le DAO qui gère la Table Offre de la base de données
+            </summary>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.GetAllOffres">
+            <summary>
+            Retourne toutes les Offres qui sont en base de données
+            </summary>
+            <returns>Liste des Offres</returns>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.FindOffreByID(System.Int32)">
+            <summary>
+            Retourne l'Offre en fonction de sont identifiant unique
+            </summary>
+            <param name="OffreId">Identifiant unique</param>
+            <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+            <returns>L'Offre en fonction de l'id passé en paramètre</returns>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.GetOffresByContratId(System.Int32)">
+            <summary>
+            Retourne une liste d'Offres en fonction de l'identifiant d'un contrat
+            </summary>
+            <param name="ContratId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.GetOffresByPosteId(System.Int32)">
+            <summary>
+            Retourne une liste d'Offres en fonction de l'identifiant d'un Poste
+            </summary>
+            <param name="PosteId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.GetOffresByRegionId(System.Int32)">
+            <summary>
+            Retourne une liste d'Offres en fonction de l'identifiant d'une Région
+            </summary>
+            <param name="RegionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.DAO.OffreDAO.DeleteOffre(System.Int32)">
+            <summary>
+            Supprime une offre en fonction de son identifiant
+            </summary>
+            <param name="offre"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.DAO.ContratDAO">
+            <summary>
+            Représente le DAO qui gère la Table Contrat de la base de données
+            </summary>
+        </member>
+        <member name="M:DAL.DAO.ContratDAO.GetAllContrats">
+            <summary>
+            Retourne tous les Contrats qui sont en base de données
+            </summary>
+            <returns>Liste des Contrats</returns>
+        </member>
+        <member name="M:DAL.DAO.ContratDAO.findByType(System.String)">
+            <summary>
+            Retourne tous les Contrat en fonction de leur type
+            </summary>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.DAO.ContratDAO.FindContratByID(System.Int32)">
+            <summary>
+            Retourne le Contrat en fonction de sont identifiant unique
+            </summary>
+            <param name="ContratId">Identifiant unique</param>
+            <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+            <returns>Le Contrat en fonction de l'id passé en paramètre</returns>
+        </member>
+        <member name="T:DAL.DAO.RegionDAO">
+            <summary>
+            Représente le DAO qui gère la Table REGION de la base de données
+            </summary>
+        </member>
+        <member name="M:DAL.DAO.RegionDAO.GetAllRegions">
+            <summary>
+            Retourne toutes les Régions qui sont en base de données
+            </summary>
+            <returns>Liste des régions</returns>
+        </member>
+        <member name="M:DAL.DAO.RegionDAO.FindRegionByID(System.Int32)">
+            <summary>
+            Retourne la Region en fonction de sont identifiant unique
+            </summary>
+            <param name="RegionId">Identifiant unique</param>
+            <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+            <returns>L'Region en fonction de l'id passé en paramètre</returns>
+        </member>
+        <member name="M:DAL.DAO.UtilisateurDAO.GetAllUtilisateur">
+            <summary>
+            Retourne tous les utilisateurs qui sont en base de données
+            </summary>
+            <returns>Liste des utilisateurs</returns>
+        </member>
+        <member name="M:DAL.DAO.UtilisateurDAO.FindUtilisateurById(System.Int32)">
+            <summary>
+            Retourne l'utilisateur en fonction de sont identifiant unique
+            </summary>
+            <param name="UtilisateurId">Identifiant unique</param>
+            <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+            <returns>L'utilisateur en fonction de l'id passé en paramètre</returns>
+        </member>
+        <member name="M:DAL.DAO.UtilisateurDAO.IsAdmin(System.Int32)">
+            <summary>
+            Retourne un Booléen à True si l'utiliisateur est Administrateur du site
+            </summary>
+            <param name="UtilisateurId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DAL.DAO.PosteDAO">
+            <summary>
+            Représente le DAO qui gère la Table Poste de la base de données
+            </summary>
+        </member>
+        <member name="M:DAL.DAO.PosteDAO.GetAllPostes">
+            <summary>
+            Retourne tous les Postes qui sont en base de données
+            </summary>
+            <returns>Liste des postes</returns>
+        </member>
+        <member name="M:DAL.DAO.PosteDAO.FindPosteByID(System.Int32)">
+            <summary>
+            Retourne le Poste en fonction de sont identifiant unique
+            </summary>
+            <param name="PosteId">Identifiant unique</param>
+            <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+            <returns>L'Poste en fonction de l'id passé en paramètre</returns>
+        </member>
+        <member name="T:DAL.DAO.DAO_BASE">
+            <summary>
+            Classe abstraite d'un data access object
+            </summary>
+        </member>
+        <member name="F:DAL.DAO.DAO_BASE.SQLManager">
+            <summary>
+            Manager de la base donnée SQL
+            </summary>
+        </member>
+        <member name="M:DAL.ISQLManager.ExcecuteQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une requête en BDD
+            </summary>
+            <param name="requete">Requete SQL</param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.ISQLManager.ExecuteNonQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une requête sans retour en BDD
+            </summary>
+            <param name="requete"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.ISQLManager.ExecuteProcStocke(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une procédure stockée en BDD
+            </summary>
+            <param name="procedureName"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.ISQLManager.ExecuteNonQueryProc(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une procédure stockée sans retour en BDD
+            </summary>
+            <param name="nomProc"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DAL.SQLServerManager._instance">
+            <summary>
+            Instance unique
+            </summary>
+        </member>
+        <member name="F:DAL.SQLServerManager.connectionString">
+            <summary>
+            Attributs de la connection
+            </summary>
+        </member>
+        <member name="M:DAL.SQLServerManager.#ctor">
+            <summary>
+            Constructeur par defaut privé
+            </summary>
+        </member>
+        <member name="M:DAL.SQLServerManager.GetInstance">
+            <summary>
+            Methode pour récupérer l'instance unique
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.SQLServerManager.ExcecuteQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une requête en BDD
+            </summary>
+            <param name="requete"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.SQLServerManager.ExecuteNonQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une requête sans retour en BDD
+            </summary>
+            <param name="requete"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.SQLServerManager.ExecuteProcStocke(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une procédure stockée en BDD
+            </summary>
+            <param name="procedureName"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.SQLServerManager.ExecuteNonQueryProc(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+            <summary>
+            Permet d'excecuter une procédure stockée sans retour en BDD
+            </summary>
+            <param name="procedureName"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

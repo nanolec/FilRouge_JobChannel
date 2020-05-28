@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BLL_Client</name>
+    </assembly>
+    <members>
+        <member name="F:BLL_Client.ControllerC.objClient">
+            <summary>
+            Instanciation du RestClient
+            Passage de l'URL de base en tant que chaîne
+            </summary>
+        </member>
+        <member name="M:BLL_Client.ControllerC.ParseJson(System.Object)">
+            <summary>
+            Initialise une nouvelle instance de la classe JsonSerializerSettings
+            Sérialise l'objet spécifié en une chaîne JSON
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.GetContrat">
+            <summary>
+            Récupère la liste des Contrats
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.GetPoste">
+            <summary>
+            Récupère la liste des Postes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.GetRegion">
+            <summary>
+            Récupère la liste des Régions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.InsertOffre(BO.Offre)">
+            <summary>
+            Création d'une nouvelle Offre
+            </summary>
+            <param name="offre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.UpdateOffre(BO.Offre)">
+            <summary>
+            Mise à jour de l'Offres affilié a un identifiant passée en paramètre
+            </summary>
+            <param name="offre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.DeleteOffre(System.Nullable{System.Int32})">
+            <summary>
+            Supprime l'Offres affilié a un identifiant passée en paramètre
+            </summary>
+            <param name="idOffre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.GetOffres">
+            <summary>
+            Récupère la liste des Offres affilié au contrat passé en paramètre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL_Client.ControllerC.GetOffres(BO.DTO.FiltersOffreRequest)">
+            <summary>
+            Récupère la liste des Offres affilié a un filtre passée en paramètre
+            </summary>
+            <param name="filtersOffre"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:BLL_Client.ControllerC.listOffreByRegion(System.Int32)" -->
+        <member name="M:BLL_Client.ControllerC.listOffreByContrat(System.String)">
+            <summary>
+            Récupère la liste des Offres affilié a un Contrat passée en paramètre
+            </summary>
+            <param name="contratId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

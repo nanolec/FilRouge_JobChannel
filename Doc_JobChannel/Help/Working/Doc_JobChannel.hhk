@@ -1,0 +1,1855 @@
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+  <BODY>
+    <UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Admin property">
+        <param name="Local" value="html/f95ebdd3-5d0a-1d3a-8de1-665097c7f51f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="API namespace">
+        <param name="Local" value="html/95420a6a-7b39-5faf-90f8-7c198168cf8e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="API.IJobChannelService interface">
+        <param name="Local" value="html/b63be1b7-996c-1425-5fe2-a2db8a5a6a54.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="API.JobChannelService class">
+        <param name="Local" value="html/ca000a2a-791e-de07-e868-922482c0bba8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BLL_Client namespace">
+        <param name="Local" value="html/be480dcb-fb72-efbe-e8f3-ab68b04cff0a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BLL_Client.ControllerC class">
+        <param name="Local" value="html/4c81bf02-ba93-5004-3d19-79995db95bc7.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BLL_Server namespace">
+        <param name="Local" value="html/57935a8c-e460-37a4-19d1-0b588bbc67fc.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BLL_Server.ControllerS class">
+        <param name="Local" value="html/e8a1ef66-ff7e-ebd2-5fc3-5291217bf7a1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO namespace">
+        <param name="Local" value="html/a9816730-be69-d2c9-a6a2-d80371973f70.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.Contrat class">
+        <param name="Local" value="html/6e00632c-e418-3b42-f072-2f00231c536c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.DTO namespace">
+        <param name="Local" value="html/746ca103-608b-2c82-68cd-30642e03f4d1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.DTO.FiltersOffreRequest class">
+        <param name="Local" value="html/d0432fe0-ac9d-dc7d-75e1-c65ea4484d54.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.DTO.Intervalle class">
+        <param name="Local" value="html/bf2b81f9-03d6-7a9e-0d6b-f47b8347fc33.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.Offre class">
+        <param name="Local" value="html/4304b33b-2287-32e6-4dce-33e650f5f4d0.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.Poste class">
+        <param name="Local" value="html/9ef82a68-727f-83af-0827-53cc2076cb18.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.Region class">
+        <param name="Local" value="html/164155cb-6a2e-b1b1-d7b8-eadadff44a3e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="BO.Utilisateur class">
+        <param name="Local" value="html/9c005799-2dde-6625-1dff-729dea8131b2.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL class">
+        <param name="See Also" value="ConfigDAL class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ConfigDAL Class">
+          <param name="Local" value="html/13eda52f-ebfb-0ccc-c6d8-e0f0da126769.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/cae26b21-e55e-6e86-c010-1b8fc8038271.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/ab31c491-9e78-6e78-12e1-f7a10ab9aa17.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/1fc6994e-ad3a-87db-cf8e-08aed6ce7f93.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.ConfigDAL constructor">
+        <param name="Local" value="html/cae26b21-e55e-6e86-c010-1b8fc8038271.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.contratDAO field">
+        <param name="Local" value="html/d0d45a28-33ef-04e5-5437-4a26b02ff056.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.offreDAO field">
+        <param name="Local" value="html/0b0dd7b0-c7ef-b033-963a-8f1b9611f489.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.posteDAO field">
+        <param name="Local" value="html/6f998a1c-2241-60a6-5b88-5405e5c7413c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.regionDAO field">
+        <param name="Local" value="html/f71198cd-6769-23b5-a1ae-e1f58d6d3b83.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.sQLManager field">
+        <param name="Local" value="html/2d119b9c-fde2-2274-1496-cb7e32f51799.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ConfigDAL.utilisateurDAO field">
+        <param name="Local" value="html/37f94542-5b8a-7428-9fb2-bb4c17903bdf.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat class">
+        <param name="See Also" value="Contrat class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat Class">
+          <param name="Local" value="html/6e00632c-e418-3b42-f072-2f00231c536c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/200d65d1-bb8b-ae0d-358a-bb33ae3c5d07.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/4f15b21b-10c4-86b3-8fa6-0e28f7958bb0.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/bff6a7d5-7512-7a93-38e0-57ca9d4afa4a.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="contrat field">
+        <param name="Local" value="html/f2cb36dd-d60d-774c-4bb5-234738e8af1e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat property">
+        <param name="Local" value="html/595798de-ad62-1a54-ba4a-751a26ea5312.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.Contrat constructor">
+        <param name="Local" value="html/200d65d1-bb8b-ae0d-358a-bb33ae3c5d07.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.Equals method">
+        <param name="Local" value="html/ba129c07-604d-e8e5-c25d-94038f924cb8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.GetHashCode method">
+        <param name="Local" value="html/6f3d0837-3180-3ff9-fa0e-91fc51c98f9a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.Id property">
+        <param name="Local" value="html/75c5dc28-0e84-f637-d5d4-349e03cc655c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.ToString method">
+        <param name="Local" value="html/03e18fe2-f725-f628-6fa5-3b7134594fe8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Contrat.Type property">
+        <param name="Local" value="html/7af596ff-8ecd-e281-21ba-0e2985c1a977.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ContratDAO class">
+        <param name="See Also" value="ContratDAO class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ContratDAO Class">
+          <param name="Local" value="html/69f6fd93-44eb-0a51-bfc9-a46d4e37918c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/b76bbc9a-29e4-1c5a-b7f4-79dbf32e41bd.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/89ca89fb-5fe2-a382-911c-171d17bdbc73.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/24fff5e8-7e4f-cb1b-7b81-8f7ecd74f26e.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="contratDAO field">
+        <param name="Local" value="html/d0d45a28-33ef-04e5-5437-4a26b02ff056.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ContratDAO.ContratDAO constructor">
+        <param name="Local" value="html/b76bbc9a-29e4-1c5a-b7f4-79dbf32e41bd.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ContratDAO.findByType method">
+        <param name="Local" value="html/01c3c890-bc65-3783-370f-3e765aac7a43.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ContratDAO.FindContratByID method">
+        <param name="Local" value="html/191eb2b2-7209-6c18-efd2-3a032278be48.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ContratDAO.GetAllContrats method">
+        <param name="Local" value="html/66b54740-8d1c-e07e-a672-89640a90cd05.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC class">
+        <param name="See Also" value="ControllerC class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC Class">
+          <param name="Local" value="html/4c81bf02-ba93-5004-3d19-79995db95bc7.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/d223ad61-03fd-5aca-b277-fe01753c9fef.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/a58c6a29-5169-ae56-3c6a-bd8db219df71.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.ControllerC constructor">
+        <param name="Local" value="html/d223ad61-03fd-5aca-b277-fe01753c9fef.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.DeleteOffre method">
+        <param name="Local" value="html/3b25b81a-57e9-3fb6-79cb-b5c15c807f07.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.GetContrat method">
+        <param name="Local" value="html/cde30137-6c85-2c55-ecc8-640e7b888e9f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.GetOffres method">
+        <param name="Local" value="html/9ab7fb75-3b89-b6f8-f308-41bf4f87d9b4.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.GetPoste method">
+        <param name="Local" value="html/608201f4-4d52-1b0c-073e-31ac59bed57c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.GetRegion method">
+        <param name="Local" value="html/93074399-12d9-8a86-89c7-bd4206cd4de1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.InsertOffre method">
+        <param name="Local" value="html/421eac6e-6850-cd7f-7280-6d7f113dec26.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.listOffreByContrat method">
+        <param name="Local" value="html/10796297-b33e-6fb7-b8bb-77e814c5856e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.listOffreByRegion method">
+        <param name="Local" value="html/fc739d35-d306-538d-3889-13d74b95ac97.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerC.UpdateOffre method">
+        <param name="Local" value="html/d95ff5bb-98db-2162-33e8-991e41c42aef.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS class">
+        <param name="See Also" value="ControllerS class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS Class">
+          <param name="Local" value="html/e8a1ef66-ff7e-ebd2-5fc3-5291217bf7a1.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/8465c865-4d60-5a41-fa1d-0e08316c1e64.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/38accbad-1e6f-5839-6a8c-a82bfd4cc065.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.ControllerS constructor">
+        <param name="Local" value="html/8465c865-4d60-5a41-fa1d-0e08316c1e64.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.DeleteOffre method">
+        <param name="Local" value="html/347d766f-f8e3-fca4-98b3-3e5f09cc2eda.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.FindUtilisateurById method">
+        <param name="Local" value="html/4c7b1571-8201-8daa-3383-74cf14eb4a43.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetContrat method">
+        <param name="Local" value="html/dc1bc4ce-a760-41bb-77fd-ea1e069f1556.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetOffres method">
+        <param name="Local" value="html/e1e94c18-9220-e338-4d5b-4cc51e75183a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetOffresByContratId method">
+        <param name="Local" value="html/05ef14cd-e2d3-bf36-001f-5e9c5e1cd2e9.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetOffresByRegionId method">
+        <param name="Local" value="html/94a11c4e-a31d-ecd9-f72c-a01b3808ed32.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetPoste method">
+        <param name="Local" value="html/becb1a2f-96af-904b-98f7-839121198e42.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetRegion method">
+        <param name="Local" value="html/564e7453-7f3b-5b13-ef06-1fbcd78d9c60.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.GetUtilisateurs method">
+        <param name="Local" value="html/23bb430a-4297-894b-8eef-7c3034fd719e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.InsertOffre method">
+        <param name="Local" value="html/69cb12c4-7eef-1dd2-8a27-9cf02d4a04b1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ControllerS.UpdateOffre method">
+        <param name="Local" value="html/251ebe07-6c97-698b-3b8a-fa4b8d45bf9b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Creation property">
+        <param name="Local" value="html/75c60122-9286-443a-5f29-126a1f6b11b3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL namespace">
+        <param name="Local" value="html/6334a317-1d3e-dab1-9f4e-1c868d3f6675.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.Configuration namespace">
+        <param name="Local" value="html/322d583f-2ad0-892b-cacf-a7b249dffe87.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.Configuration.ConfigDAL class">
+        <param name="Local" value="html/13eda52f-ebfb-0ccc-c6d8-e0f0da126769.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO namespace">
+        <param name="Local" value="html/c7c95c06-7dcb-1466-abcd-c5eb976ffccb.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.ContratDAO class">
+        <param name="Local" value="html/69f6fd93-44eb-0a51-bfc9-a46d4e37918c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.DAO_BASE class">
+        <param name="Local" value="html/ba082923-c39a-6c2a-b00d-68deecd8c3aa.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.IContratDAO interface">
+        <param name="Local" value="html/45f55356-fdcc-a3d9-2aa5-3840fcab855e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.IOffreDAO interface">
+        <param name="Local" value="html/1aace4ee-04e7-4a6c-2b4d-8e8187cd8ad3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.IPosteDAO interface">
+        <param name="Local" value="html/f6f0d59d-45f4-e487-e421-6202068d5664.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.IRegionDAO interface">
+        <param name="Local" value="html/6e330684-3b16-2083-9ecd-9aff01ac332b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.IUtilisateurDAO interface">
+        <param name="Local" value="html/ff49443d-330c-5366-f293-5307d9202527.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.OffreDAO class">
+        <param name="Local" value="html/b54194f3-52ad-5f0d-a45c-db64d9c0b747.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.PosteDAO class">
+        <param name="Local" value="html/01f8e22a-fe41-b89b-a296-79eab3159c3c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.DAO.UtilisateurDAO class">
+        <param name="Local" value="html/787ca6fd-514a-de0c-2d50-c00664915ff8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.Exceptions namespace">
+        <param name="Local" value="html/669439ed-869b-715c-e060-0815753b2a00.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.Exceptions.DAOException class">
+        <param name="Local" value="html/5da65467-13dc-12ed-f374-6e657d12e35b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAL.ISQLManager interface">
+        <param name="Local" value="html/1b726ca5-c7ab-e3ad-c662-0c25b1bd461e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAOException class">
+        <param name="See Also" value="DAOException class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DAOException Class">
+          <param name="Local" value="html/5da65467-13dc-12ed-f374-6e657d12e35b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/258ea636-1c34-609e-bd70-97e9c6f641f6.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="events">
+          <param name="Local" value="html/2054a327-6d2c-0f01-cf9e-aafab55ca3d2.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/90c5933f-ed0e-fb70-0087-8c7b28783139.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/46797882-d898-2c02-a3fa-b6a4f1e8aa7f.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAOException.DAOException constructor">
+        <param name="Local" value="html/258ea636-1c34-609e-bd70-97e9c6f641f6.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAO_BASE class">
+        <param name="See Also" value="DAO_BASE class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="DAO_BASE Class">
+          <param name="Local" value="html/ba082923-c39a-6c2a-b00d-68deecd8c3aa.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/7acb9067-f008-7c6c-ea86-a80ae01c4325.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/63006779-f6f6-a43a-fdd5-45f8529bb645.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/8d411ffc-fa14-ffa6-073f-1c369f8899d1.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAO_BASE.DAO_BASE constructor">
+        <param name="Local" value="html/7acb9067-f008-7c6c-ea86-a80ae01c4325.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DAO_BASE.SQLManager field">
+        <param name="Local" value="html/93002cbd-5855-944a-6979-de4d41f53979.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="DeleteOffre method">
+        <param name="See Also" value="DeleteOffre method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.DeleteOffre Method ">
+          <param name="Local" value="html/3b25b81a-57e9-3fb6-79cb-b5c15c807f07.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.DeleteOffre Method ">
+          <param name="Local" value="html/347d766f-f8e3-fca4-98b3-3e5f09cc2eda.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.DeleteOffre Method ">
+          <param name="Local" value="html/8574b97b-a29b-2a76-af5a-e415129f843b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.DeleteOffre Method ">
+          <param name="Local" value="html/fddd3762-3d7c-b8d8-b686-515c0b151ffd.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.DeleteOffre Method ">
+          <param name="Local" value="html/1e3b8000-57e4-b810-041a-b2366ad2db54.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.DeleteOffre Method ">
+          <param name="Local" value="html/1d9dbeed-5369-ef39-541e-0c6040e8d271.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Description property">
+        <param name="Local" value="html/df3258bb-c727-1d10-d825-febd44fecf0e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="End field">
+        <param name="Local" value="html/e3184590-f2af-b10a-0946-1a253faf5210.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Equals method">
+        <param name="See Also" value="Equals method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat.Equals Method ">
+          <param name="Local" value="html/ba129c07-604d-e8e5-c25d-94038f924cb8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre.Equals Method ">
+          <param name="Local" value="html/0038621d-7d16-cf01-6e09-ee0baf3ad38e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste.Equals Method ">
+          <param name="Local" value="html/d6df63f2-286d-febf-f21e-755e87946835.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region.Equals Method ">
+          <param name="Local" value="html/66afee07-198e-f941-4f16-b7c237134dd8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.Equals Method ">
+          <param name="Local" value="html/41fd172e-d4ba-486e-1dc1-3da4d8158986.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExcecuteQuery method">
+        <param name="Local" value="html/59b0c604-d397-ccfa-d89a-f12462e529c8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExecuteNonQuery method">
+        <param name="Local" value="html/6e0908db-810b-2945-b978-87c75842fd08.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExecuteNonQueryProc method">
+        <param name="Local" value="html/37bd94eb-4a79-cd4c-750f-33b2687bb2f9.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ExecuteProcStocke method">
+        <param name="Local" value="html/7ad855a9-ca4c-cc1e-f921-a7f5b37b89c3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest class">
+        <param name="See Also" value="FiltersOffreRequest class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="FiltersOffreRequest Class">
+          <param name="Local" value="html/d0432fe0-ac9d-dc7d-75e1-c65ea4484d54.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/f0a2fa31-0be3-5a07-fdb3-80b8a0d1def4.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/e8e633ca-fccd-b599-e054-307641089402.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/eba0f50f-74de-e128-da9b-965bf79501f8.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest.contrat field">
+        <param name="Local" value="html/f2cb36dd-d60d-774c-4bb5-234738e8af1e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest.FiltersOffreRequest constructor">
+        <param name="Local" value="html/f0a2fa31-0be3-5a07-fdb3-80b8a0d1def4.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest.intervalle field">
+        <param name="Local" value="html/f0a7583a-6e56-d2e4-93c6-2bfc2305ae78.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest.poste field">
+        <param name="Local" value="html/46d22bb9-0ca4-ea25-3e16-1033b8f9b084.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FiltersOffreRequest.region field">
+        <param name="Local" value="html/0d7aca52-94df-4b16-2118-9a0054152f60.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="findByType method">
+        <param name="See Also" value="findByType method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ContratDAO.findByType Method ">
+          <param name="Local" value="html/01c3c890-bc65-3783-370f-3e765aac7a43.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IContratDAO.findByType Method ">
+          <param name="Local" value="html/3acbb40c-a550-4aaa-69df-4a7642d70e96.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindContratByID method">
+        <param name="See Also" value="FindContratByID method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ContratDAO.FindContratByID Method ">
+          <param name="Local" value="html/191eb2b2-7209-6c18-efd2-3a032278be48.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IContratDAO.FindContratByID Method ">
+          <param name="Local" value="html/10228ead-c7ce-be99-2b67-81228b3e5862.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindOffreByDate method">
+        <param name="Local" value="html/4ddab361-1f10-7f38-9c61-b79ce6c114cd.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindOffreByID method">
+        <param name="See Also" value="FindOffreByID method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.FindOffreByID Method ">
+          <param name="Local" value="html/afb20281-1e14-c2ba-0896-a698b4a6f4ff.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.FindOffreByID Method ">
+          <param name="Local" value="html/4bee04d3-f18a-735a-43be-d8760593a375.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindPosteByID method">
+        <param name="See Also" value="FindPosteByID method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IPosteDAO.FindPosteByID Method ">
+          <param name="Local" value="html/1eaf4f27-b03d-d540-5bb0-6fa5255028b1.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PosteDAO.FindPosteByID Method ">
+          <param name="Local" value="html/f29d5cb4-5ecd-3eb4-071b-3f924e0f5c86.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindRegionByID method">
+        <param name="Local" value="html/fc839942-8ebc-bb41-15aa-6bda5d5a4e86.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="FindUtilisateurById method">
+        <param name="See Also" value="FindUtilisateurById method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.FindUtilisateurById Method ">
+          <param name="Local" value="html/4c7b1571-8201-8daa-3383-74cf14eb4a43.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.FindUtilisateurById Method ">
+          <param name="Local" value="html/d3b50768-eec9-4bfb-0370-d1decb48029e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IUtilisateurDAO.FindUtilisateurById Method ">
+          <param name="Local" value="html/8d2407c1-33dc-083f-c589-d7934cc6f24e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.FindUtilisateurById Method ">
+          <param name="Local" value="html/4fb86e5d-cc43-67f9-6c58-a8915b1ecd6e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="UtilisateurDAO.FindUtilisateurById Method ">
+          <param name="Local" value="html/6c7bf1ba-ced1-7975-7ada-0dfcf505a8a7.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetAllContrats method">
+        <param name="See Also" value="GetAllContrats method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ContratDAO.GetAllContrats Method ">
+          <param name="Local" value="html/66b54740-8d1c-e07e-a672-89640a90cd05.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IContratDAO.GetAllContrats Method ">
+          <param name="Local" value="html/d65a3014-0f15-bbf5-916c-f5fc7e57b4ea.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetAllOffres method">
+        <param name="See Also" value="GetAllOffres method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.GetAllOffres Method ">
+          <param name="Local" value="html/86a54dd3-d388-df05-3407-ab83e0c16d8c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.GetAllOffres Method ">
+          <param name="Local" value="html/a819cc37-eebe-3541-8492-46d9bed67e4a.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetAllPostes method">
+        <param name="See Also" value="GetAllPostes method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IPosteDAO.GetAllPostes Method ">
+          <param name="Local" value="html/7ebce654-906a-8f17-725d-55a22e96acf0.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PosteDAO.GetAllPostes Method ">
+          <param name="Local" value="html/3ecb518e-e88a-56ad-371b-ad2927f5cfe6.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetAllRegions method">
+        <param name="Local" value="html/37378b84-27fa-f4a6-e2d1-7f3d120001a3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetAllUtilisateur method">
+        <param name="See Also" value="GetAllUtilisateur method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IUtilisateurDAO.GetAllUtilisateur Method ">
+          <param name="Local" value="html/ebad343c-4bdc-8d15-4c11-52eb640dbe71.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="UtilisateurDAO.GetAllUtilisateur Method ">
+          <param name="Local" value="html/28b98f07-47b0-eb97-4dbb-dafef906c232.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetContrat method">
+        <param name="See Also" value="GetContrat method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.GetContrat Method ">
+          <param name="Local" value="html/cde30137-6c85-2c55-ecc8-640e7b888e9f.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetContrat Method ">
+          <param name="Local" value="html/dc1bc4ce-a760-41bb-77fd-ea1e069f1556.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetContrat Method ">
+          <param name="Local" value="html/885cf89c-1c0d-099d-f0d6-f4be2ed9a89f.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetHashCode method">
+        <param name="See Also" value="GetHashCode method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat.GetHashCode Method ">
+          <param name="Local" value="html/6f3d0837-3180-3ff9-fa0e-91fc51c98f9a.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre.GetHashCode Method ">
+          <param name="Local" value="html/30185480-d131-5c43-69ff-d8ceb47c7e8d.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste.GetHashCode Method ">
+          <param name="Local" value="html/7fab769b-0967-e009-6be4-3f3cbfdbdeb7.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region.GetHashCode Method ">
+          <param name="Local" value="html/da0056d8-51cf-cbb3-4d7e-bc303df38b51.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.GetHashCode Method ">
+          <param name="Local" value="html/bf782613-953e-0ced-8be5-90cab7d35705.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetOffres method">
+        <param name="See Also" value="GetOffres method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.GetOffres Method ">
+          <param name="Local" value="html/9ab7fb75-3b89-b6f8-f308-41bf4f87d9b4.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetOffres Method ">
+          <param name="Local" value="html/e1e94c18-9220-e338-4d5b-4cc51e75183a.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetOffres Method ">
+          <param name="Local" value="html/c635e08d-6801-5a21-7aab-b342db69a4a1.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.GetOffres Method ">
+          <param name="Local" value="html/95ecab15-446f-5131-5180-1b70f1a3d577.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetOffresByContratId method">
+        <param name="See Also" value="GetOffresByContratId method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetOffresByContratId Method ">
+          <param name="Local" value="html/05ef14cd-e2d3-bf36-001f-5e9c5e1cd2e9.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.GetOffresByContratId Method ">
+          <param name="Local" value="html/20335a18-5d82-a1a4-29f1-1ea1626c723b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.GetOffresByContratId Method ">
+          <param name="Local" value="html/fcd03a6c-0f56-01cb-7f29-34b31a7ab896.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetOffresByPosteId method">
+        <param name="See Also" value="GetOffresByPosteId method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.GetOffresByPosteId Method ">
+          <param name="Local" value="html/3393636e-545b-cdf4-9a12-c8e5d460cab0.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.GetOffresByPosteId Method ">
+          <param name="Local" value="html/bc1b5d11-b324-4cbe-d85b-67c1ad15cb58.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetOffresByRegionId method">
+        <param name="See Also" value="GetOffresByRegionId method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetOffresByRegionId Method ">
+          <param name="Local" value="html/94a11c4e-a31d-ecd9-f72c-a01b3808ed32.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.GetOffresByRegionId Method ">
+          <param name="Local" value="html/893dedf3-0818-89aa-1ed6-a50d1c537e0f.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.GetOffresByRegionId Method ">
+          <param name="Local" value="html/cd821900-95fd-4c55-6fe8-fcd17d1aab2a.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetOffresFiltrer method">
+        <param name="See Also" value="GetOffresFiltrer method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetOffresFiltrer Method ">
+          <param name="Local" value="html/100d3865-f699-cd4c-d020-b579966db699.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.GetOffresFiltrer Method ">
+          <param name="Local" value="html/50e42858-31be-ae88-e7d1-26fad7888607.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetPoste method">
+        <param name="See Also" value="GetPoste method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.GetPoste Method ">
+          <param name="Local" value="html/608201f4-4d52-1b0c-073e-31ac59bed57c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetPoste Method ">
+          <param name="Local" value="html/becb1a2f-96af-904b-98f7-839121198e42.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetPoste Method ">
+          <param name="Local" value="html/e640e106-c183-ebd2-0c85-d7bfbc8f84c5.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetRegion method">
+        <param name="See Also" value="GetRegion method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.GetRegion Method ">
+          <param name="Local" value="html/93074399-12d9-8a86-89c7-bd4206cd4de1.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetRegion Method ">
+          <param name="Local" value="html/564e7453-7f3b-5b13-ef06-1fbcd78d9c60.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetRegion Method ">
+          <param name="Local" value="html/ee06865a-9205-9039-f5f7-882384c1b821.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="GetUtilisateurs method">
+        <param name="See Also" value="GetUtilisateurs method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.GetUtilisateurs Method ">
+          <param name="Local" value="html/23bb430a-4297-894b-8eef-7c3034fd719e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.GetUtilisateurs Method ">
+          <param name="Local" value="html/ddaf93b1-8268-a8db-8701-645fdd6981bb.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.GetUtilisateurs Method ">
+          <param name="Local" value="html/b494dcb9-fa0d-699d-976a-a30934ab0d3d.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IContratDAO interface">
+        <param name="See Also" value="IContratDAO interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IContratDAO Interface">
+          <param name="Local" value="html/45f55356-fdcc-a3d9-2aa5-3840fcab855e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/fbc145c5-bee3-4e14-8c3e-5f181c3f117c.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IContratDAO.findByType method">
+        <param name="Local" value="html/3acbb40c-a550-4aaa-69df-4a7642d70e96.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IContratDAO.FindContratByID method">
+        <param name="Local" value="html/10228ead-c7ce-be99-2b67-81228b3e5862.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IContratDAO.GetAllContrats method">
+        <param name="Local" value="html/d65a3014-0f15-bbf5-916c-f5fc7e57b4ea.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Id property">
+        <param name="See Also" value="Id property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat.Id Property ">
+          <param name="Local" value="html/75c5dc28-0e84-f637-d5d4-349e03cc655c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre.Id Property ">
+          <param name="Local" value="html/c6427e56-e087-e0e0-08e7-376fa2e8b300.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste.Id Property ">
+          <param name="Local" value="html/365d224e-c7c8-b50b-0889-839da0b3c77c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region.Id Property ">
+          <param name="Local" value="html/a03f39b6-edbf-2cb1-4fda-a04afa2c51ce.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.Id Property ">
+          <param name="Local" value="html/58c5347b-acc5-6d39-db13-194211ec804b.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService interface">
+        <param name="See Also" value="IJobChannelService interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService Interface">
+          <param name="Local" value="html/b63be1b7-996c-1425-5fe2-a2db8a5a6a54.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/89d75d3f-cea8-58d0-4e2e-20ce1c8cbf60.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.DeleteOffre method">
+        <param name="Local" value="html/8574b97b-a29b-2a76-af5a-e415129f843b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.FindUtilisateurById method">
+        <param name="Local" value="html/d3b50768-eec9-4bfb-0370-d1decb48029e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetContrat method">
+        <param name="Local" value="html/885cf89c-1c0d-099d-f0d6-f4be2ed9a89f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetOffres method">
+        <param name="Local" value="html/c635e08d-6801-5a21-7aab-b342db69a4a1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetOffresFiltrer method">
+        <param name="Local" value="html/100d3865-f699-cd4c-d020-b579966db699.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetPoste method">
+        <param name="Local" value="html/e640e106-c183-ebd2-0c85-d7bfbc8f84c5.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetRegion method">
+        <param name="Local" value="html/ee06865a-9205-9039-f5f7-882384c1b821.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.GetUtilisateurs method">
+        <param name="Local" value="html/ddaf93b1-8268-a8db-8701-645fdd6981bb.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.InsertOffre method">
+        <param name="Local" value="html/c262aec1-3d35-f301-f866-8dd3b7c9a106.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IJobChannelService.UpdateOffre method">
+        <param name="Local" value="html/b4add00f-c572-4593-ba5b-4657b9718277.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="InsertOffre method">
+        <param name="See Also" value="InsertOffre method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.InsertOffre Method ">
+          <param name="Local" value="html/421eac6e-6850-cd7f-7280-6d7f113dec26.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.InsertOffre Method ">
+          <param name="Local" value="html/69cb12c4-7eef-1dd2-8a27-9cf02d4a04b1.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.InsertOffre Method ">
+          <param name="Local" value="html/c262aec1-3d35-f301-f866-8dd3b7c9a106.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.InsertOffre Method ">
+          <param name="Local" value="html/0c2e5a34-800f-5726-fa11-d705cae6a587.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.InsertOffre Method ">
+          <param name="Local" value="html/186944d4-6bfe-4ee9-9e00-7ad24f4b7753.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.InsertOffre Method ">
+          <param name="Local" value="html/370041b6-1823-a163-dbc7-9403cba6697e.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Intervalle class">
+        <param name="See Also" value="Intervalle class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Intervalle Class">
+          <param name="Local" value="html/bf2b81f9-03d6-7a9e-0d6b-f47b8347fc33.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/0882518b-8b05-2f46-fb11-201473e6688a.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/a766136f-befc-81b2-c8d6-d46e32c33f02.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/dc7306ea-9490-c0af-d148-e6175cac27f3.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="intervalle field">
+        <param name="Local" value="html/f0a7583a-6e56-d2e4-93c6-2bfc2305ae78.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Intervalle.End field">
+        <param name="Local" value="html/e3184590-f2af-b10a-0946-1a253faf5210.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Intervalle.Intervalle constructor">
+        <param name="Local" value="html/0882518b-8b05-2f46-fb11-201473e6688a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Intervalle.Start field">
+        <param name="Local" value="html/89489438-83cb-62b2-3fdf-b59db030aee1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO interface">
+        <param name="See Also" value="IOffreDAO interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO Interface">
+          <param name="Local" value="html/1aace4ee-04e7-4a6c-2b4d-8e8187cd8ad3.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/6313072f-15d1-9d2d-dfa9-e5bd23de4b5b.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.DeleteOffre method">
+        <param name="Local" value="html/fddd3762-3d7c-b8d8-b686-515c0b151ffd.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.FindOffreByID method">
+        <param name="Local" value="html/afb20281-1e14-c2ba-0896-a698b4a6f4ff.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.GetAllOffres method">
+        <param name="Local" value="html/86a54dd3-d388-df05-3407-ab83e0c16d8c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.GetOffresByContratId method">
+        <param name="Local" value="html/20335a18-5d82-a1a4-29f1-1ea1626c723b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.GetOffresByPosteId method">
+        <param name="Local" value="html/3393636e-545b-cdf4-9a12-c8e5d460cab0.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.GetOffresByRegionId method">
+        <param name="Local" value="html/893dedf3-0818-89aa-1ed6-a50d1c537e0f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.InsertOffre method">
+        <param name="Local" value="html/0c2e5a34-800f-5726-fa11-d705cae6a587.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IOffreDAO.UpdateOffre method">
+        <param name="Local" value="html/9fcc81d8-77c5-b7b9-fc6d-7dcbdecccce8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IPosteDAO interface">
+        <param name="See Also" value="IPosteDAO interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IPosteDAO Interface">
+          <param name="Local" value="html/f6f0d59d-45f4-e487-e421-6202068d5664.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/7ba623a9-4858-ded0-9c4f-3a7b41bea7d3.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IPosteDAO.FindPosteByID method">
+        <param name="Local" value="html/1eaf4f27-b03d-d540-5bb0-6fa5255028b1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IPosteDAO.GetAllPostes method">
+        <param name="Local" value="html/7ebce654-906a-8f17-725d-55a22e96acf0.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IRegionDAO interface">
+        <param name="See Also" value="IRegionDAO interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IRegionDAO Interface">
+          <param name="Local" value="html/6e330684-3b16-2083-9ecd-9aff01ac332b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/98bd0fdf-ac1b-d8d5-33d8-787a78b1ce85.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IRegionDAO.FindRegionByID method">
+        <param name="Local" value="html/fc839942-8ebc-bb41-15aa-6bda5d5a4e86.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IRegionDAO.GetAllRegions method">
+        <param name="Local" value="html/37378b84-27fa-f4a6-e2d1-7f3d120001a3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IsAdmin method">
+        <param name="See Also" value="IsAdmin method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IUtilisateurDAO.IsAdmin Method ">
+          <param name="Local" value="html/2957d225-e7cf-981b-a52f-497008b696fa.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="UtilisateurDAO.IsAdmin Method ">
+          <param name="Local" value="html/680badcc-3a51-c92f-7676-33d8056afdee.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISQLManager interface">
+        <param name="See Also" value="ISQLManager interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ISQLManager Interface">
+          <param name="Local" value="html/1b726ca5-c7ab-e3ad-c662-0c25b1bd461e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/801d56d7-49ce-4bb5-87d5-668bdc2443a7.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISQLManager.ExcecuteQuery method">
+        <param name="Local" value="html/59b0c604-d397-ccfa-d89a-f12462e529c8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISQLManager.ExecuteNonQuery method">
+        <param name="Local" value="html/6e0908db-810b-2945-b978-87c75842fd08.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISQLManager.ExecuteNonQueryProc method">
+        <param name="Local" value="html/37bd94eb-4a79-cd4c-750f-33b2687bb2f9.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ISQLManager.ExecuteProcStocke method">
+        <param name="Local" value="html/7ad855a9-ca4c-cc1e-f921-a7f5b37b89c3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IUtilisateurDAO interface">
+        <param name="See Also" value="IUtilisateurDAO interface">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IUtilisateurDAO Interface">
+          <param name="Local" value="html/ff49443d-330c-5366-f293-5307d9202527.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/bf84c4cc-7630-4f10-f332-4ea09b2d7ad9.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IUtilisateurDAO.FindUtilisateurById method">
+        <param name="Local" value="html/8d2407c1-33dc-083f-c589-d7934cc6f24e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IUtilisateurDAO.GetAllUtilisateur method">
+        <param name="Local" value="html/ebad343c-4bdc-8d15-4c11-52eb640dbe71.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="IUtilisateurDAO.IsAdmin method">
+        <param name="Local" value="html/2957d225-e7cf-981b-a52f-497008b696fa.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService class">
+        <param name="See Also" value="JobChannelService class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService Class">
+          <param name="Local" value="html/ca000a2a-791e-de07-e868-922482c0bba8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/0caae592-e482-3367-9585-bb1f067927ef.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/fa957f3a-7747-6453-1929-06e78c795460.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.DeleteOffre method">
+        <param name="Local" value="html/1e3b8000-57e4-b810-041a-b2366ad2db54.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.FindUtilisateurById method">
+        <param name="Local" value="html/4fb86e5d-cc43-67f9-6c58-a8915b1ecd6e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.GetOffres method">
+        <param name="Local" value="html/95ecab15-446f-5131-5180-1b70f1a3d577.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.GetOffresFiltrer method">
+        <param name="Local" value="html/50e42858-31be-ae88-e7d1-26fad7888607.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.GetUtilisateurs method">
+        <param name="Local" value="html/b494dcb9-fa0d-699d-976a-a30934ab0d3d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.InsertOffre method">
+        <param name="Local" value="html/186944d4-6bfe-4ee9-9e00-7ad24f4b7753.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.JobChannelService constructor">
+        <param name="Local" value="html/0caae592-e482-3367-9585-bb1f067927ef.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="JobChannelService.UpdateOffre method">
+        <param name="Local" value="html/159086d7-0483-9c6c-9d0f-56a68240b650.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Lien property">
+        <param name="Local" value="html/d8b752ef-5e5c-844f-bf30-a521861374f0.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="listOffreByContrat method">
+        <param name="Local" value="html/10796297-b33e-6fb7-b8bb-77e814c5856e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="listOffreByRegion method">
+        <param name="Local" value="html/fc739d35-d306-538d-3889-13d74b95ac97.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Modif property">
+        <param name="Local" value="html/ec704301-18ba-53b0-78ae-10d9c1414c69.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Nom property">
+        <param name="See Also" value="Nom property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region.Nom Property ">
+          <param name="Local" value="html/81400755-4f69-5bfd-6de2-bb55159401dc.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.Nom Property ">
+          <param name="Local" value="html/336d24a3-20da-4def-3a54-7cff037c42ed.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre class">
+        <param name="See Also" value="Offre class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre Class">
+          <param name="Local" value="html/4304b33b-2287-32e6-4dce-33e650f5f4d0.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/cad598fd-3d0d-11d1-2cc6-17d458822a65.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/9663e65d-69da-da09-7057-4e92d9725bab.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/4bc1928f-9067-e444-ab09-bf9ea4aadd52.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Contrat property">
+        <param name="Local" value="html/595798de-ad62-1a54-ba4a-751a26ea5312.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Creation property">
+        <param name="Local" value="html/75c60122-9286-443a-5f29-126a1f6b11b3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Description property">
+        <param name="Local" value="html/df3258bb-c727-1d10-d825-febd44fecf0e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Equals method">
+        <param name="Local" value="html/0038621d-7d16-cf01-6e09-ee0baf3ad38e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.GetHashCode method">
+        <param name="Local" value="html/30185480-d131-5c43-69ff-d8ceb47c7e8d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Id property">
+        <param name="Local" value="html/c6427e56-e087-e0e0-08e7-376fa2e8b300.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Lien property">
+        <param name="Local" value="html/d8b752ef-5e5c-844f-bf30-a521861374f0.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Modif property">
+        <param name="Local" value="html/ec704301-18ba-53b0-78ae-10d9c1414c69.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Offre constructor">
+        <param name="Local" value="html/cad598fd-3d0d-11d1-2cc6-17d458822a65.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Poste property">
+        <param name="Local" value="html/a8a512d3-fd81-5ef2-cded-6649d7c8802c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Region property">
+        <param name="Local" value="html/e57e0037-d0aa-f14a-a1b9-1e21213bdf6b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.Titre property">
+        <param name="Local" value="html/076de641-ad4e-783c-da23-79ebccf4fb6b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Offre.ToString method">
+        <param name="Local" value="html/95972845-334c-dbaa-fdc1-3be4a4418a40.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO class">
+        <param name="See Also" value="OffreDAO class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO Class">
+          <param name="Local" value="html/b54194f3-52ad-5f0d-a45c-db64d9c0b747.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/304344e8-8473-fee4-f972-9cc1ea51265c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/5c889188-1d39-d73d-7cc2-c31516f3ed9a.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/84db4118-743c-dc5e-944a-81946414c2bb.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="offreDAO field">
+        <param name="Local" value="html/0b0dd7b0-c7ef-b033-963a-8f1b9611f489.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.DeleteOffre method">
+        <param name="Local" value="html/1d9dbeed-5369-ef39-541e-0c6040e8d271.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.FindOffreByDate method">
+        <param name="Local" value="html/4ddab361-1f10-7f38-9c61-b79ce6c114cd.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.FindOffreByID method">
+        <param name="Local" value="html/4bee04d3-f18a-735a-43be-d8760593a375.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.GetAllOffres method">
+        <param name="Local" value="html/a819cc37-eebe-3541-8492-46d9bed67e4a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.GetOffresByContratId method">
+        <param name="Local" value="html/fcd03a6c-0f56-01cb-7f29-34b31a7ab896.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.GetOffresByPosteId method">
+        <param name="Local" value="html/bc1b5d11-b324-4cbe-d85b-67c1ad15cb58.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.GetOffresByRegionId method">
+        <param name="Local" value="html/cd821900-95fd-4c55-6fe8-fcd17d1aab2a.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.InsertOffre method">
+        <param name="Local" value="html/370041b6-1823-a163-dbc7-9403cba6697e.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.OffreDAO constructor">
+        <param name="Local" value="html/304344e8-8473-fee4-f972-9cc1ea51265c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="OffreDAO.UpdateOffre method">
+        <param name="Local" value="html/8cdcd689-68b1-961a-2ab6-e347cb383f16.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste class">
+        <param name="See Also" value="Poste class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste Class">
+          <param name="Local" value="html/9ef82a68-727f-83af-0827-53cc2076cb18.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/a8b591f2-72e3-1893-9e1e-8e55edff776b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/84c7defb-194d-20df-6d19-1666492bc7d9.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/0091410c-f59e-30d3-9bbe-e9bea2dbbdba.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="poste field">
+        <param name="Local" value="html/46d22bb9-0ca4-ea25-3e16-1033b8f9b084.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste property">
+        <param name="Local" value="html/a8a512d3-fd81-5ef2-cded-6649d7c8802c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.Equals method">
+        <param name="Local" value="html/d6df63f2-286d-febf-f21e-755e87946835.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.GetHashCode method">
+        <param name="Local" value="html/7fab769b-0967-e009-6be4-3f3cbfdbdeb7.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.Id property">
+        <param name="Local" value="html/365d224e-c7c8-b50b-0889-839da0b3c77c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.Poste constructor">
+        <param name="Local" value="html/a8b591f2-72e3-1893-9e1e-8e55edff776b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.ToString method">
+        <param name="Local" value="html/98521acb-5f54-0e35-a718-04c52a5d254b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Poste.Type property">
+        <param name="Local" value="html/e36caf12-e552-c56c-7def-4115aeb540f3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PosteDAO class">
+        <param name="See Also" value="PosteDAO class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="PosteDAO Class">
+          <param name="Local" value="html/01f8e22a-fe41-b89b-a296-79eab3159c3c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/33afe795-776b-9160-83ef-737b0474a751.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/1a20eb76-aab4-ee07-9883-cc6cdbe23e02.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/678ce724-7fc9-97da-67ba-ad6d362cca61.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="posteDAO field">
+        <param name="Local" value="html/6f998a1c-2241-60a6-5b88-5405e5c7413c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PosteDAO.FindPosteByID method">
+        <param name="Local" value="html/f29d5cb4-5ecd-3eb4-071b-3f924e0f5c86.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PosteDAO.GetAllPostes method">
+        <param name="Local" value="html/3ecb518e-e88a-56ad-371b-ad2927f5cfe6.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="PosteDAO.PosteDAO constructor">
+        <param name="Local" value="html/33afe795-776b-9160-83ef-737b0474a751.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Prenom property">
+        <param name="Local" value="html/e6308873-9e02-8d03-202a-39d737ea305d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region class">
+        <param name="See Also" value="Region class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region Class">
+          <param name="Local" value="html/164155cb-6a2e-b1b1-d7b8-eadadff44a3e.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/f02ecfd6-8ab0-467a-6656-711a9c1a0322.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/829591ce-ef0b-ed0a-4af8-9cd964da2239.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/0f0f9507-a580-3def-20de-3afd84951ce6.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="region field">
+        <param name="Local" value="html/0d7aca52-94df-4b16-2118-9a0054152f60.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region property">
+        <param name="See Also" value="Region property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre.Region Property ">
+          <param name="Local" value="html/e57e0037-d0aa-f14a-a1b9-1e21213bdf6b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.Region Property ">
+          <param name="Local" value="html/ba42208a-3b74-7b75-5142-507ca4bf346c.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.Equals method">
+        <param name="Local" value="html/66afee07-198e-f941-4f16-b7c237134dd8.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.GetHashCode method">
+        <param name="Local" value="html/da0056d8-51cf-cbb3-4d7e-bc303df38b51.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.Id property">
+        <param name="Local" value="html/a03f39b6-edbf-2cb1-4fda-a04afa2c51ce.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.Nom property">
+        <param name="Local" value="html/81400755-4f69-5bfd-6de2-bb55159401dc.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.Region constructor">
+        <param name="Local" value="html/f02ecfd6-8ab0-467a-6656-711a9c1a0322.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Region.ToString method">
+        <param name="Local" value="html/ee4e0758-a04c-b459-e89d-d753d748f54c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="regionDAO field">
+        <param name="Local" value="html/f71198cd-6769-23b5-a1ae-e1f58d6d3b83.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="sQLManager field">
+        <param name="Local" value="html/2d119b9c-fde2-2274-1496-cb7e32f51799.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="SQLManager field">
+        <param name="Local" value="html/93002cbd-5855-944a-6979-de4d41f53979.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Start field">
+        <param name="Local" value="html/89489438-83cb-62b2-3fdf-b59db030aee1.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Titre property">
+        <param name="Local" value="html/076de641-ad4e-783c-da23-79ebccf4fb6b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="ToString method">
+        <param name="See Also" value="ToString method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat.ToString Method ">
+          <param name="Local" value="html/03e18fe2-f725-f628-6fa5-3b7134594fe8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Offre.ToString Method ">
+          <param name="Local" value="html/95972845-334c-dbaa-fdc1-3be4a4418a40.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste.ToString Method ">
+          <param name="Local" value="html/98521acb-5f54-0e35-a718-04c52a5d254b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Region.ToString Method ">
+          <param name="Local" value="html/ee4e0758-a04c-b459-e89d-d753d748f54c.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur.ToString Method ">
+          <param name="Local" value="html/4ae1c593-5719-8c6a-c608-1a0a8bb60270.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Type property">
+        <param name="See Also" value="Type property">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Contrat.Type Property ">
+          <param name="Local" value="html/7af596ff-8ecd-e281-21ba-0e2985c1a977.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Poste.Type Property ">
+          <param name="Local" value="html/e36caf12-e552-c56c-7def-4115aeb540f3.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UpdateOffre method">
+        <param name="See Also" value="UpdateOffre method">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerC.UpdateOffre Method ">
+          <param name="Local" value="html/d95ff5bb-98db-2162-33e8-991e41c42aef.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="ControllerS.UpdateOffre Method ">
+          <param name="Local" value="html/251ebe07-6c97-698b-3b8a-fa4b8d45bf9b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IJobChannelService.UpdateOffre Method ">
+          <param name="Local" value="html/b4add00f-c572-4593-ba5b-4657b9718277.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="IOffreDAO.UpdateOffre Method ">
+          <param name="Local" value="html/9fcc81d8-77c5-b7b9-fc6d-7dcbdecccce8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="JobChannelService.UpdateOffre Method ">
+          <param name="Local" value="html/159086d7-0483-9c6c-9d0f-56a68240b650.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="OffreDAO.UpdateOffre Method ">
+          <param name="Local" value="html/8cdcd689-68b1-961a-2ab6-e347cb383f16.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur class">
+        <param name="See Also" value="Utilisateur class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="Utilisateur Class">
+          <param name="Local" value="html/9c005799-2dde-6625-1dff-729dea8131b2.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/1bc4cfa8-b26d-4c4b-da69-a1ed63714ee3.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/15f6702e-c302-6629-b653-7f0f4001331d.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="properties">
+          <param name="Local" value="html/d2bbd8ca-d443-3507-9c53-fcad55c54fb0.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Admin property">
+        <param name="Local" value="html/f95ebdd3-5d0a-1d3a-8de1-665097c7f51f.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Equals method">
+        <param name="Local" value="html/41fd172e-d4ba-486e-1dc1-3da4d8158986.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.GetHashCode method">
+        <param name="Local" value="html/bf782613-953e-0ced-8be5-90cab7d35705.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Id property">
+        <param name="Local" value="html/58c5347b-acc5-6d39-db13-194211ec804b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Nom property">
+        <param name="Local" value="html/336d24a3-20da-4def-3a54-7cff037c42ed.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Prenom property">
+        <param name="Local" value="html/e6308873-9e02-8d03-202a-39d737ea305d.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Region property">
+        <param name="Local" value="html/ba42208a-3b74-7b75-5142-507ca4bf346c.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.ToString method">
+        <param name="Local" value="html/4ae1c593-5719-8c6a-c608-1a0a8bb60270.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Utilisateur.Utilisateur constructor">
+        <param name="Local" value="html/1bc4cfa8-b26d-4c4b-da69-a1ed63714ee3.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UtilisateurDAO class">
+        <param name="See Also" value="UtilisateurDAO class">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="UtilisateurDAO Class">
+          <param name="Local" value="html/787ca6fd-514a-de0c-2d50-c00664915ff8.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="constructor">
+          <param name="Local" value="html/c87e09cc-2d1a-e620-3029-e50d88efd36b.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="fields">
+          <param name="Local" value="html/9d3240a5-d3b0-d426-6ac3-f74dc9b7f8a9.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="methods">
+          <param name="Local" value="html/65930fb0-0b6f-872a-a6e0-ee14736d301c.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="utilisateurDAO field">
+        <param name="Local" value="html/37f94542-5b8a-7428-9fb2-bb4c17903bdf.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UtilisateurDAO.FindUtilisateurById method">
+        <param name="Local" value="html/6c7bf1ba-ced1-7975-7ada-0dfcf505a8a7.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UtilisateurDAO.GetAllUtilisateur method">
+        <param name="Local" value="html/28b98f07-47b0-eb97-4dbb-dafef906c232.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UtilisateurDAO.IsAdmin method">
+        <param name="Local" value="html/680badcc-3a51-c92f-7676-33d8056afdee.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="UtilisateurDAO.UtilisateurDAO constructor">
+        <param name="Local" value="html/c87e09cc-2d1a-e620-3029-e50d88efd36b.htm">
+      </OBJECT></LI>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="version">
+        <param name="See Also" value="version">
+      </OBJECT></LI>
+      <UL>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="1.0.0.0">
+          <param name="Local" value="html/5accbb14-bca5-406d-9337-327f7ff5b51d.htm">
+        </OBJECT></LI>
+        <LI><OBJECT type="text/sitemap">
+          <param name="Name" value="history">
+          <param name="Local" value="html/bfcdc2d4-b0bb-4660-bfa7-b5d2246371de.htm">
+        </OBJECT></LI>
+      </UL>
+      <LI><OBJECT type="text/sitemap">
+        <param name="Name" value="Welcome">
+        <param name="Local" value="html/16300f5d-20ce-4c75-afdf-e66848a7e275.htm">
+      </OBJECT></LI>
+    </UL>
+  </BODY>
+</HTML>

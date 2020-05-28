@@ -7,12 +7,18 @@ using System.Windows.Forms;
 
 namespace IHM.UserControls
 {
+    /// <summary>
+    /// Enumération Read            ==> Consultation des Offres
+    ///             Creation        ==> Insert d'une offre
+    ///             Modification    ==> Update d'une offre
+    /// </summary>
     public enum EModeDetailsOffre
     {
         READ_ONLY,
         CREATION,
         MODIFICATION
     }
+
     public partial class DetailsOffre : UserControl
     {
         public EModeDetailsOffre mode = EModeDetailsOffre.READ_ONLY;
@@ -96,6 +102,9 @@ namespace IHM.UserControls
 
         }
 
+        /// <summary>
+        /// Affiche et type les colonnes de données
+        /// </summary>
         private void InitializeForm()
         {
             List<string> Labels = new List<string>() { "Titre", "Description", "Région", "Type de Contrat", "Type de Poste", "Date Publication", "Lien" };
@@ -188,6 +197,11 @@ namespace IHM.UserControls
 
         }
 
+        /// <summary>
+        /// Gestion du bouton Ajout de l'offre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonADD_Click(object sender, EventArgs e)
         {
             if (mode == EModeDetailsOffre.READ_ONLY)
@@ -230,6 +244,11 @@ namespace IHM.UserControls
             }
         }
 
+        /// <summary>
+        /// Gestion du bouton Modification de l'offre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonModifier_Click(object sender, EventArgs e)
         {
             if (mode == EModeDetailsOffre.READ_ONLY)
@@ -272,6 +291,11 @@ namespace IHM.UserControls
             }
         }
 
+        /// <summary>
+        /// Gestion du bouton suppression de l'offre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ButtonSupprimer_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show(Properties.Resources.MsgSup,
@@ -297,6 +321,9 @@ namespace IHM.UserControls
             }
         }
 
+        /// <summary>
+        /// Rafraichissement des données dans le tableau
+        /// </summary>
         private void RefreshForm()
         {
             if (Offre != null)
@@ -306,6 +333,7 @@ namespace IHM.UserControls
                     if (mode != EModeDetailsOffre.READ_ONLY) kp.Value.Enabled = true;
                     else { 
                         kp.Value.Enabled = false;
+                        // Règle pb affichage en bleu
                         if (kp.Value is ComboBox)
                         {
                             ((ComboBox)kp.Value).SelectedText = null;
@@ -328,6 +356,7 @@ namespace IHM.UserControls
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
                     kp.Value.ResetText();
+                    // Règle pb affichage en bleu
                     if (kp.Value is ComboBox)
                     {
                         ((ComboBox)kp.Value).SelectedText = null;
@@ -337,6 +366,10 @@ namespace IHM.UserControls
             //this.formControls["Type de Poste"].Enabled = false;
         }
 
+        /// <summary>
+        /// Affichage de la Popup
+        /// </summary>
+        /// <param name="o"> Reçoit une offre</param>
         private void OpenPopup(Offre o)
         {
             using (form2 = new Popup())
@@ -350,9 +383,14 @@ namespace IHM.UserControls
             }
         }
 
+        /// <summary>
+        /// Raffraichie le formulaire principal à la fermeture du formulaire secondaire
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            RefreshListEvent(this , new EventArgs());
+            RefreshListEvent(this, new EventArgs());
         }
     }
     

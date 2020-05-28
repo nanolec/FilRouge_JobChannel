@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="16300f5d-20ce-4c75-afdf-e66848a7e275" file="16300f5d-20ce-4c75-afdf-e66848a7e275" sortOrder="0" />
+  <topic id="bfcdc2d4-b0bb-4660-bfa7-b5d2246371de" file="bfcdc2d4-b0bb-4660-bfa7-b5d2246371de">
+    <topic id="5accbb14-bca5-406d-9337-327f7ff5b51d" file="5accbb14-bca5-406d-9337-327f7ff5b51d" />
+  </topic>
+  <topic id="N:API" project="_Namespaces" file="95420a6a-7b39-5faf-90f8-7c198168cf8e" sortOrder="2">
+    <topic id="T:API.IJobChannelService" project="API" file="b63be1b7-996c-1425-5fe2-a2db8a5a6a54">
+      <topic id="Methods.T:API.IJobChannelService" project="API" file="89d75d3f-cea8-58d0-4e2e-20ce1c8cbf60">
+        <topic id="M:API.IJobChannelService.DeleteOffre(System.String)" project="API" file="8574b97b-a29b-2a76-af5a-e415129f843b" />
+        <topic id="M:API.IJobChannelService.FindUtilisateurById(System.String)" project="API" file="d3b50768-eec9-4bfb-0370-d1decb48029e" />
+        <topic id="M:API.IJobChannelService.GetContrat" project="API" file="885cf89c-1c0d-099d-f0d6-f4be2ed9a89f" />
+        <topic id="M:API.IJobChannelService.GetOffres" project="API" file="c635e08d-6801-5a21-7aab-b342db69a4a1" />
+        <topic id="M:API.IJobChannelService.GetOffresFiltrer(BO.DTO.FiltersOffreRequest)" project="API" file="100d3865-f699-cd4c-d020-b579966db699" />
+        <topic id="M:API.IJobChannelService.GetPoste" project="API" file="e640e106-c183-ebd2-0c85-d7bfbc8f84c5" />
+        <topic id="M:API.IJobChannelService.GetRegion" project="API" file="ee06865a-9205-9039-f5f7-882384c1b821" />
+        <topic id="M:API.IJobChannelService.GetUtilisateurs" project="API" file="ddaf93b1-8268-a8db-8701-645fdd6981bb" />
+        <topic id="M:API.IJobChannelService.InsertOffre(BO.Offre)" project="API" file="c262aec1-3d35-f301-f866-8dd3b7c9a106" />
+        <topic id="M:API.IJobChannelService.UpdateOffre(BO.Offre)" project="API" file="b4add00f-c572-4593-ba5b-4657b9718277" />
+      </topic>
+    </topic>
+    <topic id="T:API.JobChannelService" project="API" file="ca000a2a-791e-de07-e868-922482c0bba8">
+      <topic id="M:API.JobChannelService.#ctor" project="API" file="0caae592-e482-3367-9585-bb1f067927ef" />
+      <topic id="Methods.T:API.JobChannelService" project="API" file="fa957f3a-7747-6453-1929-06e78c795460">
+        <topic id="M:API.JobChannelService.DeleteOffre(System.String)" project="API" file="1e3b8000-57e4-b810-041a-b2366ad2db54" />
+        <topic id="M:API.JobChannelService.FindUtilisateurById(System.String)" project="API" file="4fb86e5d-cc43-67f9-6c58-a8915b1ecd6e" />
+        <topic id="M:API.JobChannelService.GetOffres" project="API" file="95ecab15-446f-5131-5180-1b70f1a3d577" />
+        <topic id="M:API.JobChannelService.GetOffresFiltrer(BO.DTO.FiltersOffreRequest)" project="API" file="50e42858-31be-ae88-e7d1-26fad7888607" />
+        <topic id="M:API.JobChannelService.GetUtilisateurs" project="API" file="b494dcb9-fa0d-699d-976a-a30934ab0d3d" />
+        <topic id="M:API.JobChannelService.InsertOffre(BO.Offre)" project="API" file="186944d4-6bfe-4ee9-9e00-7ad24f4b7753" />
+        <topic id="M:API.JobChannelService.UpdateOffre(BO.Offre)" project="API" file="159086d7-0483-9c6c-9d0f-56a68240b650" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:BLL_Client" project="_Namespaces" file="be480dcb-fb72-efbe-e8f3-ab68b04cff0a">
+    <topic id="T:BLL_Client.ControllerC" project="BLL_Client" file="4c81bf02-ba93-5004-3d19-79995db95bc7">
+      <topic id="M:BLL_Client.ControllerC.#ctor" project="BLL_Client" file="d223ad61-03fd-5aca-b277-fe01753c9fef" />
+      <topic id="Methods.T:BLL_Client.ControllerC" project="BLL_Client" file="a58c6a29-5169-ae56-3c6a-bd8db219df71">
+        <topic id="M:BLL_Client.ControllerC.DeleteOffre(System.Nullable{System.Int32})" project="BLL_Client" file="3b25b81a-57e9-3fb6-79cb-b5c15c807f07" />
+        <topic id="M:BLL_Client.ControllerC.GetContrat" project="BLL_Client" file="cde30137-6c85-2c55-ecc8-640e7b888e9f" />
+        <topic id="Overload:BLL_Client.ControllerC.GetOffres" project="BLL_Client" file="9ab7fb75-3b89-b6f8-f308-41bf4f87d9b4">
+          <topic id="M:BLL_Client.ControllerC.GetOffres" project="BLL_Client" file="49be3d35-5ce9-75e6-c6db-b794beadf058" />
+          <topic id="M:BLL_Client.ControllerC.GetOffres(BO.DTO.FiltersOffreRequest)" project="BLL_Client" file="8a978c27-f844-f95a-9c93-ba3fe5ff5015" />
+        </topic>
+        <topic id="M:BLL_Client.ControllerC.GetPoste" project="BLL_Client" file="608201f4-4d52-1b0c-073e-31ac59bed57c" />
+        <topic id="M:BLL_Client.ControllerC.GetRegion" project="BLL_Client" file="93074399-12d9-8a86-89c7-bd4206cd4de1" />
+        <topic id="M:BLL_Client.ControllerC.InsertOffre(BO.Offre)" project="BLL_Client" file="421eac6e-6850-cd7f-7280-6d7f113dec26" />
+        <topic id="M:BLL_Client.ControllerC.listOffreByContrat(System.String)" project="BLL_Client" file="10796297-b33e-6fb7-b8bb-77e814c5856e" />
+        <topic id="M:BLL_Client.ControllerC.listOffreByRegion(System.Int32)" project="BLL_Client" file="fc739d35-d306-538d-3889-13d74b95ac97" />
+        <topic id="M:BLL_Client.ControllerC.UpdateOffre(BO.Offre)" project="BLL_Client" file="d95ff5bb-98db-2162-33e8-991e41c42aef" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:BLL_Server" project="_Namespaces" file="57935a8c-e460-37a4-19d1-0b588bbc67fc">
+    <topic id="T:BLL_Server.ControllerS" project="BLL_Server" file="e8a1ef66-ff7e-ebd2-5fc3-5291217bf7a1">
+      <topic id="M:BLL_Server.ControllerS.#ctor" project="BLL_Server" file="8465c865-4d60-5a41-fa1d-0e08316c1e64" />
+      <topic id="Methods.T:BLL_Server.ControllerS" project="BLL_Server" file="38accbad-1e6f-5839-6a8c-a82bfd4cc065">
+        <topic id="M:BLL_Server.ControllerS.DeleteOffre(System.Int32)" project="BLL_Server" file="347d766f-f8e3-fca4-98b3-3e5f09cc2eda" />
+        <topic id="M:BLL_Server.ControllerS.FindUtilisateurById(System.Int32)" project="BLL_Server" file="4c7b1571-8201-8daa-3383-74cf14eb4a43" />
+        <topic id="M:BLL_Server.ControllerS.GetContrat" project="BLL_Server" file="dc1bc4ce-a760-41bb-77fd-ea1e069f1556" />
+        <topic id="Overload:BLL_Server.ControllerS.GetOffres" project="BLL_Server" file="e1e94c18-9220-e338-4d5b-4cc51e75183a">
+          <topic id="M:BLL_Server.ControllerS.GetOffres" project="BLL_Server" file="f31b9b52-23b2-a8ab-e2f9-1ff89909289a" />
+          <topic id="M:BLL_Server.ControllerS.GetOffres(BO.DTO.FiltersOffreRequest)" project="BLL_Server" file="5cc79878-4eb0-cb6a-801c-c8ac63c70a3b" />
+        </topic>
+        <topic id="M:BLL_Server.ControllerS.GetOffresByContratId(System.Int32)" project="BLL_Server" file="05ef14cd-e2d3-bf36-001f-5e9c5e1cd2e9" />
+        <topic id="M:BLL_Server.ControllerS.GetOffresByRegionId(System.Int32)" project="BLL_Server" file="94a11c4e-a31d-ecd9-f72c-a01b3808ed32" />
+        <topic id="M:BLL_Server.ControllerS.GetPoste" project="BLL_Server" file="becb1a2f-96af-904b-98f7-839121198e42" />
+        <topic id="M:BLL_Server.ControllerS.GetRegion" project="BLL_Server" file="564e7453-7f3b-5b13-ef06-1fbcd78d9c60" />
+        <topic id="M:BLL_Server.ControllerS.GetUtilisateurs" project="BLL_Server" file="23bb430a-4297-894b-8eef-7c3034fd719e" />
+        <topic id="M:BLL_Server.ControllerS.InsertOffre(BO.Offre)" project="BLL_Server" file="69cb12c4-7eef-1dd2-8a27-9cf02d4a04b1" />
+        <topic id="M:BLL_Server.ControllerS.UpdateOffre(BO.Offre)" project="BLL_Server" file="251ebe07-6c97-698b-3b8a-fa4b8d45bf9b" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:BO" project="_Namespaces" file="a9816730-be69-d2c9-a6a2-d80371973f70">
+    <topic id="T:BO.Contrat" project="BO" file="6e00632c-e418-3b42-f072-2f00231c536c">
+      <topic id="Overload:BO.Contrat.#ctor" project="BO" file="200d65d1-bb8b-ae0d-358a-bb33ae3c5d07">
+        <topic id="M:BO.Contrat.#ctor" project="BO" file="3f3de0bd-196e-bfe6-f49f-2c0f944b7341" />
+        <topic id="M:BO.Contrat.#ctor(System.Data.DataRow)" project="BO" file="291ccf90-1d52-183a-ba66-cff3863e6dde" />
+        <topic id="M:BO.Contrat.#ctor(System.Nullable{System.Int32},System.String)" project="BO" file="181e2b14-f2ec-5c74-5fd2-d8831b159d94" />
+      </topic>
+      <topic id="Properties.T:BO.Contrat" project="BO" file="bff6a7d5-7512-7a93-38e0-57ca9d4afa4a">
+        <topic id="P:BO.Contrat.Id" project="BO" file="75c5dc28-0e84-f637-d5d4-349e03cc655c" />
+        <topic id="P:BO.Contrat.Type" project="BO" file="7af596ff-8ecd-e281-21ba-0e2985c1a977" />
+      </topic>
+      <topic id="Methods.T:BO.Contrat" project="BO" file="4f15b21b-10c4-86b3-8fa6-0e28f7958bb0">
+        <topic id="M:BO.Contrat.Equals(System.Object)" project="BO" file="ba129c07-604d-e8e5-c25d-94038f924cb8" />
+        <topic id="M:BO.Contrat.GetHashCode" project="BO" file="6f3d0837-3180-3ff9-fa0e-91fc51c98f9a" />
+        <topic id="M:BO.Contrat.ToString" project="BO" file="03e18fe2-f725-f628-6fa5-3b7134594fe8" />
+      </topic>
+    </topic>
+    <topic id="T:BO.Offre" project="BO" file="4304b33b-2287-32e6-4dce-33e650f5f4d0">
+      <topic id="Overload:BO.Offre.#ctor" project="BO" file="cad598fd-3d0d-11d1-2cc6-17d458822a65">
+        <topic id="M:BO.Offre.#ctor" project="BO" file="67b5bef2-d678-4526-2215-f62ef46de97a" />
+        <topic id="M:BO.Offre.#ctor(System.Data.DataRow,BO.Poste,BO.Contrat,BO.Region)" project="BO" file="cbece854-c078-7a96-8bbd-048e91ac4390" />
+        <topic id="M:BO.Offre.#ctor(System.String,System.String,BO.Poste,BO.Contrat,BO.Region,System.DateTime,System.String)" project="BO" file="b5523dc8-47d1-ae58-cac9-22087dc87e97" />
+        <topic id="M:BO.Offre.#ctor(System.Nullable{System.Int32},BO.Poste,BO.Contrat,BO.Region,System.String,System.String,System.DateTime,System.String)" project="BO" file="20aae54b-3f31-30a2-4ccd-1f3f11e6ebb3" />
+        <topic id="M:BO.Offre.#ctor(System.Int32,BO.Poste,BO.Contrat,BO.Region,System.String,System.String,System.String,System.DateTime,System.DateTime)" project="BO" file="079e555a-c8b1-046f-c685-e3f080efbae6" />
+      </topic>
+      <topic id="Properties.T:BO.Offre" project="BO" file="4bc1928f-9067-e444-ab09-bf9ea4aadd52">
+        <topic id="P:BO.Offre.Contrat" project="BO" file="595798de-ad62-1a54-ba4a-751a26ea5312" />
+        <topic id="P:BO.Offre.Creation" project="BO" file="75c60122-9286-443a-5f29-126a1f6b11b3" />
+        <topic id="P:BO.Offre.Description" project="BO" file="df3258bb-c727-1d10-d825-febd44fecf0e" />
+        <topic id="P:BO.Offre.Id" project="BO" file="c6427e56-e087-e0e0-08e7-376fa2e8b300" />
+        <topic id="P:BO.Offre.Lien" project="BO" file="d8b752ef-5e5c-844f-bf30-a521861374f0" />
+        <topic id="P:BO.Offre.Modif" project="BO" file="ec704301-18ba-53b0-78ae-10d9c1414c69" />
+        <topic id="P:BO.Offre.Poste" project="BO" file="a8a512d3-fd81-5ef2-cded-6649d7c8802c" />
+        <topic id="P:BO.Offre.Region" project="BO" file="e57e0037-d0aa-f14a-a1b9-1e21213bdf6b" />
+        <topic id="P:BO.Offre.Titre" project="BO" file="076de641-ad4e-783c-da23-79ebccf4fb6b" />
+      </topic>
+      <topic id="Methods.T:BO.Offre" project="BO" file="9663e65d-69da-da09-7057-4e92d9725bab">
+        <topic id="M:BO.Offre.Equals(System.Object)" project="BO" file="0038621d-7d16-cf01-6e09-ee0baf3ad38e" />
+        <topic id="M:BO.Offre.GetHashCode" project="BO" file="30185480-d131-5c43-69ff-d8ceb47c7e8d" />
+        <topic id="M:BO.Offre.ToString" project="BO" file="95972845-334c-dbaa-fdc1-3be4a4418a40" />
+      </topic>
+    </topic>
+    <topic id="T:BO.Poste" project="BO" file="9ef82a68-727f-83af-0827-53cc2076cb18">
+      <topic id="Overload:BO.Poste.#ctor" project="BO" file="a8b591f2-72e3-1893-9e1e-8e55edff776b">
+        <topic id="M:BO.Poste.#ctor" project="BO" file="ba2a98da-61ef-494a-92cd-207fb4aba1a3" />
+        <topic id="M:BO.Poste.#ctor(System.Data.DataRow)" project="BO" file="528b3eef-23e9-8538-6e19-9f4c77c76989" />
+        <topic id="M:BO.Poste.#ctor(System.Nullable{System.Int32},System.String)" project="BO" file="ded24e70-5da5-d872-82de-bad2accfb9be" />
+      </topic>
+      <topic id="Properties.T:BO.Poste" project="BO" file="0091410c-f59e-30d3-9bbe-e9bea2dbbdba">
+        <topic id="P:BO.Poste.Id" project="BO" file="365d224e-c7c8-b50b-0889-839da0b3c77c" />
+        <topic id="P:BO.Poste.Type" project="BO" file="e36caf12-e552-c56c-7def-4115aeb540f3" />
+      </topic>
+      <topic id="Methods.T:BO.Poste" project="BO" file="84c7defb-194d-20df-6d19-1666492bc7d9">
+        <topic id="M:BO.Poste.Equals(System.Object)" project="BO" file="d6df63f2-286d-febf-f21e-755e87946835" />
+        <topic id="M:BO.Poste.GetHashCode" project="BO" file="7fab769b-0967-e009-6be4-3f3cbfdbdeb7" />
+        <topic id="M:BO.Poste.ToString" project="BO" file="98521acb-5f54-0e35-a718-04c52a5d254b" />
+      </topic>
+    </topic>
+    <topic id="T:BO.Region" project="BO" file="164155cb-6a2e-b1b1-d7b8-eadadff44a3e">
+      <topic id="Overload:BO.Region.#ctor" project="BO" file="f02ecfd6-8ab0-467a-6656-711a9c1a0322">
+        <topic id="M:BO.Region.#ctor" project="BO" file="64a2c72b-76db-59e1-3c95-93407b70e3bc" />
+        <topic id="M:BO.Region.#ctor(System.Data.DataRow)" project="BO" file="c75642df-938d-a1d4-c612-2272457018ae" />
+        <topic id="M:BO.Region.#ctor(System.Nullable{System.Int32},System.String)" project="BO" file="6eafe78d-2a28-2da2-0d0a-b3a50cda788f" />
+      </topic>
+      <topic id="Properties.T:BO.Region" project="BO" file="0f0f9507-a580-3def-20de-3afd84951ce6">
+        <topic id="P:BO.Region.Id" project="BO" file="a03f39b6-edbf-2cb1-4fda-a04afa2c51ce" />
+        <topic id="P:BO.Region.Nom" project="BO" file="81400755-4f69-5bfd-6de2-bb55159401dc" />
+      </topic>
+      <topic id="Methods.T:BO.Region" project="BO" file="829591ce-ef0b-ed0a-4af8-9cd964da2239">
+        <topic id="M:BO.Region.Equals(System.Object)" project="BO" file="66afee07-198e-f941-4f16-b7c237134dd8" />
+        <topic id="M:BO.Region.GetHashCode" project="BO" file="da0056d8-51cf-cbb3-4d7e-bc303df38b51" />
+        <topic id="M:BO.Region.ToString" project="BO" file="ee4e0758-a04c-b459-e89d-d753d748f54c" />
+      </topic>
+    </topic>
+    <topic id="T:BO.Utilisateur" project="BO" file="9c005799-2dde-6625-1dff-729dea8131b2">
+      <topic id="Overload:BO.Utilisateur.#ctor" project="BO" file="1bc4cfa8-b26d-4c4b-da69-a1ed63714ee3">
+        <topic id="M:BO.Utilisateur.#ctor" project="BO" file="14c098d6-2404-4a87-0960-5857b66e3e8a" />
+        <topic id="M:BO.Utilisateur.#ctor(System.Data.DataRow,BO.Region)" project="BO" file="960e96d9-1c6f-d5ce-032e-23ee1fbf455a" />
+        <topic id="M:BO.Utilisateur.#ctor(System.Int32,BO.Region,System.String,System.String,System.Boolean)" project="BO" file="437382bd-e4c4-247e-05e1-6dfea6391571" />
+      </topic>
+      <topic id="Properties.T:BO.Utilisateur" project="BO" file="d2bbd8ca-d443-3507-9c53-fcad55c54fb0">
+        <topic id="P:BO.Utilisateur.Admin" project="BO" file="f95ebdd3-5d0a-1d3a-8de1-665097c7f51f" />
+        <topic id="P:BO.Utilisateur.Id" project="BO" file="58c5347b-acc5-6d39-db13-194211ec804b" />
+        <topic id="P:BO.Utilisateur.Nom" project="BO" file="336d24a3-20da-4def-3a54-7cff037c42ed" />
+        <topic id="P:BO.Utilisateur.Prenom" project="BO" file="e6308873-9e02-8d03-202a-39d737ea305d" />
+        <topic id="P:BO.Utilisateur.Region" project="BO" file="ba42208a-3b74-7b75-5142-507ca4bf346c" />
+      </topic>
+      <topic id="Methods.T:BO.Utilisateur" project="BO" file="15f6702e-c302-6629-b653-7f0f4001331d">
+        <topic id="M:BO.Utilisateur.Equals(System.Object)" project="BO" file="41fd172e-d4ba-486e-1dc1-3da4d8158986" />
+        <topic id="M:BO.Utilisateur.GetHashCode" project="BO" file="bf782613-953e-0ced-8be5-90cab7d35705" />
+        <topic id="M:BO.Utilisateur.ToString" project="BO" file="4ae1c593-5719-8c6a-c608-1a0a8bb60270" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:BO.DTO" project="_Namespaces" file="746ca103-608b-2c82-68cd-30642e03f4d1">
+    <topic id="T:BO.DTO.FiltersOffreRequest" project="BO" file="d0432fe0-ac9d-dc7d-75e1-c65ea4484d54">
+      <topic id="Overload:BO.DTO.FiltersOffreRequest.#ctor" project="BO" file="f0a2fa31-0be3-5a07-fdb3-80b8a0d1def4">
+        <topic id="M:BO.DTO.FiltersOffreRequest.#ctor" project="BO" file="476e6abf-fc98-66f4-86ec-bb7994f4d948" />
+        <topic id="M:BO.DTO.FiltersOffreRequest.#ctor(BO.Region,BO.Contrat,BO.Poste,BO.DTO.Intervalle)" project="BO" file="ef6e9066-7c4d-11ce-4654-7a978e67ed7e" />
+      </topic>
+      <topic id="Methods.T:BO.DTO.FiltersOffreRequest" project="BO" file="eba0f50f-74de-e128-da9b-965bf79501f8" />
+      <topic id="Fields.T:BO.DTO.FiltersOffreRequest" project="BO" file="e8e633ca-fccd-b599-e054-307641089402">
+        <topic id="F:BO.DTO.FiltersOffreRequest.contrat" project="BO" file="f2cb36dd-d60d-774c-4bb5-234738e8af1e" />
+        <topic id="F:BO.DTO.FiltersOffreRequest.intervalle" project="BO" file="f0a7583a-6e56-d2e4-93c6-2bfc2305ae78" />
+        <topic id="F:BO.DTO.FiltersOffreRequest.poste" project="BO" file="46d22bb9-0ca4-ea25-3e16-1033b8f9b084" />
+        <topic id="F:BO.DTO.FiltersOffreRequest.region" project="BO" file="0d7aca52-94df-4b16-2118-9a0054152f60" />
+      </topic>
+    </topic>
+    <topic id="T:BO.DTO.Intervalle" project="BO" file="bf2b81f9-03d6-7a9e-0d6b-f47b8347fc33">
+      <topic id="M:BO.DTO.Intervalle.#ctor(System.Nullable{System.DateTime},System.Nullable{System.DateTime})" project="BO" file="0882518b-8b05-2f46-fb11-201473e6688a" />
+      <topic id="Methods.T:BO.DTO.Intervalle" project="BO" file="dc7306ea-9490-c0af-d148-e6175cac27f3" />
+      <topic id="Fields.T:BO.DTO.Intervalle" project="BO" file="a766136f-befc-81b2-c8d6-d46e32c33f02">
+        <topic id="F:BO.DTO.Intervalle.End" project="BO" file="e3184590-f2af-b10a-0946-1a253faf5210" />
+        <topic id="F:BO.DTO.Intervalle.Start" project="BO" file="89489438-83cb-62b2-3fdf-b59db030aee1" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:DAL" project="_Namespaces" file="6334a317-1d3e-dab1-9f4e-1c868d3f6675">
+    <topic id="T:DAL.ISQLManager" project="DAL" file="1b726ca5-c7ab-e3ad-c662-0c25b1bd461e">
+      <topic id="Methods.T:DAL.ISQLManager" project="DAL" file="801d56d7-49ce-4bb5-87d5-668bdc2443a7">
+        <topic id="M:DAL.ISQLManager.ExcecuteQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})" project="DAL" file="59b0c604-d397-ccfa-d89a-f12462e529c8" />
+        <topic id="M:DAL.ISQLManager.ExecuteNonQuery(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})" project="DAL" file="6e0908db-810b-2945-b978-87c75842fd08" />
+        <topic id="M:DAL.ISQLManager.ExecuteNonQueryProc(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})" project="DAL" file="37bd94eb-4a79-cd4c-750f-33b2687bb2f9" />
+        <topic id="M:DAL.ISQLManager.ExecuteProcStocke(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})" project="DAL" file="7ad855a9-ca4c-cc1e-f921-a7f5b37b89c3" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:DAL.Configuration" project="_Namespaces" file="322d583f-2ad0-892b-cacf-a7b249dffe87">
+    <topic id="T:DAL.Configuration.ConfigDAL" project="DAL" file="13eda52f-ebfb-0ccc-c6d8-e0f0da126769">
+      <topic id="M:DAL.Configuration.ConfigDAL.#ctor" project="DAL" file="cae26b21-e55e-6e86-c010-1b8fc8038271" />
+      <topic id="Methods.T:DAL.Configuration.ConfigDAL" project="DAL" file="1fc6994e-ad3a-87db-cf8e-08aed6ce7f93" />
+      <topic id="Fields.T:DAL.Configuration.ConfigDAL" project="DAL" file="ab31c491-9e78-6e78-12e1-f7a10ab9aa17">
+        <topic id="F:DAL.Configuration.ConfigDAL.contratDAO" project="DAL" file="d0d45a28-33ef-04e5-5437-4a26b02ff056" />
+        <topic id="F:DAL.Configuration.ConfigDAL.offreDAO" project="DAL" file="0b0dd7b0-c7ef-b033-963a-8f1b9611f489" />
+        <topic id="F:DAL.Configuration.ConfigDAL.posteDAO" project="DAL" file="6f998a1c-2241-60a6-5b88-5405e5c7413c" />
+        <topic id="F:DAL.Configuration.ConfigDAL.regionDAO" project="DAL" file="f71198cd-6769-23b5-a1ae-e1f58d6d3b83" />
+        <topic id="F:DAL.Configuration.ConfigDAL.sQLManager" project="DAL" file="2d119b9c-fde2-2274-1496-cb7e32f51799" />
+        <topic id="F:DAL.Configuration.ConfigDAL.utilisateurDAO" project="DAL" file="37f94542-5b8a-7428-9fb2-bb4c17903bdf" />
+      </topic>
+    </topic>
+  </topic>
+  <topic id="N:DAL.DAO" project="_Namespaces" file="c7c95c06-7dcb-1466-abcd-c5eb976ffccb">
+    <topic id="T:DAL.DAO.ContratDAO" project="DAL" file="69f6fd93-44eb-0a51-bfc9-a46d4e37918c">
+      <topic id="M:DAL.DAO.ContratDAO.#ctor(DAL.ISQLManager)" project="DAL" file="b76bbc9a-29e4-1c5a-b7f4-79dbf32e41bd" />
+      <topic id="Methods.T:DAL.DAO.ContratDAO" project="DAL" file="24fff5e8-7e4f-cb1b-7b81-8f7ecd74f26e">
+        <topic id="M:DAL.DAO.ContratDAO.findByType(System.String)" project="DAL" file="01c3c890-bc65-3783-370f-3e765aac7a43" />
+        <topic id="M:DAL.DAO.ContratDAO.FindContratByID(System.Int32)" project="DAL" file="191eb2b2-7209-6c18-efd2-3a032278be48" />
+        <topic id="M:DAL.DAO.ContratDAO.GetAllContrats" project="DAL" file="66b54740-8d1c-e07e-a672-89640a90cd05" />
+      </topic>
+      <topic id="Fields.T:DAL.DAO.ContratDAO" project="DAL" file="89ca89fb-5fe2-a382-911c-171d17bdbc73" />
+    </topic>
+    <topic id="T:DAL.DAO.DAO_BASE" project="DAL" file="ba082923-c39a-6c2a-b00d-68deecd8c3aa">
+      <topic id="M:DAL.DAO.DAO_BASE.#ctor(DAL.ISQLManager)" project="DAL" file="7acb9067-f008-7c6c-ea86-a80ae01c4325" />
+      <topic id="Methods.T:DAL.DAO.DAO_BASE" project="DAL" file="8d411ffc-fa14-ffa6-073f-1c369f8899d1" />
+      <topic id="Fields.T:DAL.DAO.DAO_BASE" project="DAL" file="63006779-f6f6-a43a-fdd5-45f8529bb645">
+        <topic id="F:DAL.DAO.DAO_BASE.SQLManager" project="DAL" file="93002cbd-5855-944a-6979-de4d41f53979" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.IContratDAO" project="DAL" file="45f55356-fdcc-a3d9-2aa5-3840fcab855e">
+      <topic id="Methods.T:DAL.DAO.IContratDAO" project="DAL" file="fbc145c5-bee3-4e14-8c3e-5f181c3f117c">
+        <topic id="M:DAL.DAO.IContratDAO.findByType(System.String)" project="DAL" file="3acbb40c-a550-4aaa-69df-4a7642d70e96" />
+        <topic id="M:DAL.DAO.IContratDAO.FindContratByID(System.Int32)" project="DAL" file="10228ead-c7ce-be99-2b67-81228b3e5862" />
+        <topic id="M:DAL.DAO.IContratDAO.GetAllContrats" project="DAL" file="d65a3014-0f15-bbf5-916c-f5fc7e57b4ea" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.IOffreDAO" project="DAL" file="1aace4ee-04e7-4a6c-2b4d-8e8187cd8ad3">
+      <topic id="Methods.T:DAL.DAO.IOffreDAO" project="DAL" file="6313072f-15d1-9d2d-dfa9-e5bd23de4b5b">
+        <topic id="M:DAL.DAO.IOffreDAO.DeleteOffre(System.Int32)" project="DAL" file="fddd3762-3d7c-b8d8-b686-515c0b151ffd" />
+        <topic id="M:DAL.DAO.IOffreDAO.FindOffreByID(System.Int32)" project="DAL" file="afb20281-1e14-c2ba-0896-a698b4a6f4ff" />
+        <topic id="Overload:DAL.DAO.IOffreDAO.GetAllOffres" project="DAL" file="86a54dd3-d388-df05-3407-ab83e0c16d8c">
+          <topic id="M:DAL.DAO.IOffreDAO.GetAllOffres" project="DAL" file="f8e760b9-c53f-8f10-8452-fbd657573a62" />
+          <topic id="M:DAL.DAO.IOffreDAO.GetAllOffres(BO.DTO.FiltersOffreRequest)" project="DAL" file="2a2a6b54-68e9-356e-57a9-98427fb4bfde" />
+        </topic>
+        <topic id="M:DAL.DAO.IOffreDAO.GetOffresByContratId(System.Int32)" project="DAL" file="20335a18-5d82-a1a4-29f1-1ea1626c723b" />
+        <topic id="M:DAL.DAO.IOffreDAO.GetOffresByPosteId(System.Int32)" project="DAL" file="3393636e-545b-cdf4-9a12-c8e5d460cab0" />
+        <topic id="M:DAL.DAO.IOffreDAO.GetOffresByRegionId(System.Int32)" project="DAL" file="893dedf3-0818-89aa-1ed6-a50d1c537e0f" />
+        <topic id="M:DAL.DAO.IOffreDAO.InsertOffre(BO.Offre)" project="DAL" file="0c2e5a34-800f-5726-fa11-d705cae6a587" />
+        <topic id="M:DAL.DAO.IOffreDAO.UpdateOffre(BO.Offre)" project="DAL" file="9fcc81d8-77c5-b7b9-fc6d-7dcbdecccce8" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.IPosteDAO" project="DAL" file="f6f0d59d-45f4-e487-e421-6202068d5664">
+      <topic id="Methods.T:DAL.DAO.IPosteDAO" project="DAL" file="7ba623a9-4858-ded0-9c4f-3a7b41bea7d3">
+        <topic id="M:DAL.DAO.IPosteDAO.FindPosteByID(System.Int32)" project="DAL" file="1eaf4f27-b03d-d540-5bb0-6fa5255028b1" />
+        <topic id="M:DAL.DAO.IPosteDAO.GetAllPostes" project="DAL" file="7ebce654-906a-8f17-725d-55a22e96acf0" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.IRegionDAO" project="DAL" file="6e330684-3b16-2083-9ecd-9aff01ac332b">
+      <topic id="Methods.T:DAL.DAO.IRegionDAO" project="DAL" file="98bd0fdf-ac1b-d8d5-33d8-787a78b1ce85">
+        <topic id="M:DAL.DAO.IRegionDAO.FindRegionByID(System.Int32)" project="DAL" file="fc839942-8ebc-bb41-15aa-6bda5d5a4e86" />
+        <topic id="M:DAL.DAO.IRegionDAO.GetAllRegions" project="DAL" file="37378b84-27fa-f4a6-e2d1-7f3d120001a3" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.IUtilisateurDAO" project="DAL" file="ff49443d-330c-5366-f293-5307d9202527">
+      <topic id="Methods.T:DAL.DAO.IUtilisateurDAO" project="DAL" file="bf84c4cc-7630-4f10-f332-4ea09b2d7ad9">
+        <topic id="M:DAL.DAO.IUtilisateurDAO.FindUtilisateurById(System.Int32)" project="DAL" file="8d2407c1-33dc-083f-c589-d7934cc6f24e" />
+        <topic id="M:DAL.DAO.IUtilisateurDAO.GetAllUtilisateur" project="DAL" file="ebad343c-4bdc-8d15-4c11-52eb640dbe71" />
+        <topic id="M:DAL.DAO.IUtilisateurDAO.IsAdmin(System.Int32)" project="DAL" file="2957d225-e7cf-981b-a52f-497008b696fa" />
+      </topic>
+    </topic>
+    <topic id="T:DAL.DAO.OffreDAO" project="DAL" file="b54194f3-52ad-5f0d-a45c-db64d9c0b747">
+      <topic id="M:DAL.DAO.OffreDAO.#ctor(DAL.ISQLManager)" project="DAL" file="304344e8-8473-fee4-f972-9cc1ea51265c" />
+      <topic id="Methods.T:DAL.DAO.OffreDAO" project="DAL" file="84db4118-743c-dc5e-944a-81946414c2bb">
+        <topic id="M:DAL.DAO.OffreDAO.DeleteOffre(System.Int32)" project="DAL" file="1d9dbeed-5369-ef39-541e-0c6040e8d271" />
+        <topic id="M:DAL.DAO.OffreDAO.FindOffreByDate(System.DateTime)" project="DAL" file="4ddab361-1f10-7f38-9c61-b79ce6c114cd" />
+        <topic id="M:DAL.DAO.OffreDAO.FindOffreByID(System.Int32)" project="DAL" file="4bee04d3-f18a-735a-43be-d8760593a375" />
+        <topic id="Overload:DAL.DAO.OffreDAO.GetAllOffres" project="DAL" file="a819cc37-eebe-3541-8492-46d9bed67e4a">
+          <topic id="M:DAL.DAO.OffreDAO.GetAllOffres" project="DAL" file="98221f29-98d6-cba9-b1e7-dc74c865a0bf" />
+          <topic id="M:DAL.DAO.OffreDAO.GetAllOffres(BO.DTO.FiltersOffreRequest)" project="DAL" file="5b59f9a4-e18b-3649-576e-e2e1b9c49cc4" />
+        </topic>
+        <topic id="M:DAL.DAO.OffreDAO.GetOffresByContratId(System.Int32)" project="DAL" file="fcd03a6c-0f56-01cb-7f29-34b31a7ab896" />
+        <topic id="M:DAL.DAO.OffreDAO.GetOffresByPosteId(System.Int32)" project="DAL" file="bc1b5d11-b324-4cbe-d85b-67c1ad15cb58" />
+        <topic id="M:DAL.DAO.OffreDAO.GetOffresByRegionId(System.Int32)" project="DAL" file="cd821900-95fd-4c55-6fe8-fcd17d1aab2a" />
+        <topic id="M:DAL.DAO.OffreDAO.InsertOffre(BO.Offre)" project="DAL" file="370041b6-1823-a163-dbc7-9403cba6697e" />
+        <topic id="M:DAL.DAO.OffreDAO.UpdateOffre(BO.Offre)" project="DAL" file="8cdcd689-68b1-961a-2ab6-e347cb383f16" />
+      </topic>
+      <topic id="Fields.T:DAL.DAO.OffreDAO" project="DAL" file="5c889188-1d39-d73d-7cc2-c31516f3ed9a" />
+    </topic>
+    <topic id="T:DAL.DAO.PosteDAO" project="DAL" file="01f8e22a-fe41-b89b-a296-79eab3159c3c">
+      <topic id="M:DAL.DAO.PosteDAO.#ctor(DAL.ISQLManager)" project="DAL" file="33afe795-776b-9160-83ef-737b0474a751" />
+      <topic id="Methods.T:DAL.DAO.PosteDAO" project="DAL" file="678ce724-7fc9-97da-67ba-ad6d362cca61">
+        <topic id="M:DAL.DAO.PosteDAO.FindPosteByID(System.Int32)" project="DAL" file="f29d5cb4-5ecd-3eb4-071b-3f924e0f5c86" />
+        <topic id="M:DAL.DAO.PosteDAO.GetAllPostes" project="DAL" file="3ecb518e-e88a-56ad-371b-ad2927f5cfe6" />
+      </topic>
+      <topic id="Fields.T:DAL.DAO.PosteDAO" project="DAL" file="1a20eb76-aab4-ee07-9883-cc6cdbe23e02" />
+    </topic>
+    <topic id="T:DAL.DAO.UtilisateurDAO" project="DAL" file="787ca6fd-514a-de0c-2d50-c00664915ff8">
+      <topic id="M:DAL.DAO.UtilisateurDAO.#ctor(DAL.ISQLManager)" project="DAL" file="c87e09cc-2d1a-e620-3029-e50d88efd36b" />
+      <topic id="Methods.T:DAL.DAO.UtilisateurDAO" project="DAL" file="65930fb0-0b6f-872a-a6e0-ee14736d301c">
+        <topic id="M:DAL.DAO.UtilisateurDAO.FindUtilisateurById(System.Int32)" project="DAL" file="6c7bf1ba-ced1-7975-7ada-0dfcf505a8a7" />
+        <topic id="M:DAL.DAO.UtilisateurDAO.GetAllUtilisateur" project="DAL" file="28b98f07-47b0-eb97-4dbb-dafef906c232" />
+        <topic id="M:DAL.DAO.UtilisateurDAO.IsAdmin(System.Int32)" project="DAL" file="680badcc-3a51-c92f-7676-33d8056afdee" />
+      </topic>
+      <topic id="Fields.T:DAL.DAO.UtilisateurDAO" project="DAL" file="9d3240a5-d3b0-d426-6ac3-f74dc9b7f8a9" />
+    </topic>
+  </topic>
+  <topic id="N:DAL.Exceptions" project="_Namespaces" file="669439ed-869b-715c-e060-0815753b2a00">
+    <topic id="T:DAL.Exceptions.DAOException" project="DAL" file="5da65467-13dc-12ed-f374-6e657d12e35b">
+      <topic id="Overload:DAL.Exceptions.DAOException.#ctor" project="DAL" file="258ea636-1c34-609e-bd70-97e9c6f641f6">
+        <topic id="M:DAL.Exceptions.DAOException.#ctor" project="DAL" file="edfba2eb-9ffe-34f8-8682-6acae98bf0b2" />
+        <topic id="M:DAL.Exceptions.DAOException.#ctor(System.String)" project="DAL" file="82d030a2-798b-3aab-22da-23e24ecefae5" />
+        <topic id="M:DAL.Exceptions.DAOException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" project="DAL" file="662a88f7-225f-0125-67aa-b07a352f091e" />
+        <topic id="M:DAL.Exceptions.DAOException.#ctor(System.String,System.Exception)" project="DAL" file="c08a9835-e6c6-b4be-62ef-bb02a9be1d90" />
+      </topic>
+      <topic id="Properties.T:DAL.Exceptions.DAOException" project="DAL" file="46797882-d898-2c02-a3fa-b6a4f1e8aa7f" />
+      <topic id="Methods.T:DAL.Exceptions.DAOException" project="DAL" file="90c5933f-ed0e-fb70-0087-8c7b28783139" />
+      <topic id="Events.T:DAL.Exceptions.DAOException" project="DAL" file="2054a327-6d2c-0f01-cf9e-aafab55ca3d2" />
+    </topic>
+  </topic>
+</topics>

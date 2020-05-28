@@ -49,13 +49,17 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{DAF42459-E90F-4097-A5F3-E88C2C095B35}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Client\BLL_Client\BLL_Client.csproj">
       <Project>{df19c7e2-87db-4a64-b92c-47af037f6c1d}</Project>
       <Name>BLL_Client</Name>

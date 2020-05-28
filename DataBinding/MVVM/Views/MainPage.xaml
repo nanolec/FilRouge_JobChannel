@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="DataBinding.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataBinding"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar IsSticky="True" Background="LightSkyBlue">
+            <AppBarButton x:Name="mnuClients" x:Uid="MainPage_Clients" Icon="ContactInfo" Label="Par" Click="MnuClients_Click" />
+            <AppBarButton x:Name="mnuParametres" x:Uid="MainPage_Parametres" Icon="Repair" Label="Par" Click="MnuParametres_Click" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" x:Uid="MainPage_Titre" Style="{StaticResource StyleTitre}" Text="Titre"/>
+        <TextBox Grid.Row="1" Style="{StaticResource StyleDefautText}" Text="{Binding Titre, Mode=TwoWay}" />
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Button Name="Button1" x:Uid="MainPage_Button1" Style="{StaticResource StyleButton}" Content="ChangerTexte" Click="Button1_Click"  />
+            <Button Name="Button2" x:Uid="MainPage_Button2" Style="{StaticResource StyleButton}" Content="ChangerLangue" Click="Button2_Click"  />
+        </StackPanel>
+    </Grid>
+</Page>

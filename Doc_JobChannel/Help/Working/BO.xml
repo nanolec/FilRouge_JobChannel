@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>BO</name>
+  </assembly>
+  <members>
+    <member name="P:BO.Contrat.Id">
+      <summary>
+            Identifiant unique du contrat
+            </summary>
+    </member>
+    <member name="P:BO.Contrat.Type">
+      <summary>
+            Type du contrat
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Id">
+      <summary>
+            Identifiant unique de l'Offre
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Poste">
+      <summary>
+            Identifiant unique du poste
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Contrat">
+      <summary>
+            Identifiant unique du contrat
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Region">
+      <summary>
+            Identifiant unique de la région de préférence
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Titre">
+      <summary>
+            Titre de l'Offre
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Description">
+      <summary>
+            Description de l'Offre
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Lien">
+      <summary>
+            Lien vers l'Offre
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Creation">
+      <summary>
+            Date création de l'Offre
+            </summary>
+    </member>
+    <member name="P:BO.Offre.Modif">
+      <summary>
+            Modif date de l'Offre
+            </summary>
+    </member>
+    <member name="M:BO.Offre.#ctor(System.Nullable{System.Int32},BO.Poste,BO.Contrat,BO.Region,System.String,System.String,System.DateTime,System.String)">
+      <summary>
+            Pour Update
+            </summary>
+      <param name="id">
+      </param>
+      <param name="titre">
+      </param>
+      <param name="description">
+      </param>
+      <param name="poste">
+      </param>
+      <param name="contrat">
+      </param>
+      <param name="region">
+      </param>
+      <param name="creation">
+      </param>
+      <param name="lien">
+      </param>
+    </member>
+    <member name="P:BO.Poste.Id">
+      <summary>
+            Identifiant unique du poste
+            </summary>
+    </member>
+    <member name="P:BO.Poste.Type">
+      <summary>
+            Type du poste
+            </summary>
+    </member>
+    <member name="P:BO.Region.Id">
+      <summary>
+            Identifiant unique de la région
+            </summary>
+    </member>
+    <member name="P:BO.Region.Nom">
+      <summary>
+            Nom de la région
+            </summary>
+    </member>
+    <member name="P:BO.Utilisateur.Id">
+      <summary>
+            Identifiant unique de l'utilisateur
+            </summary>
+    </member>
+    <member name="P:BO.Utilisateur.Region">
+      <summary>
+            Région de préférence
+            </summary>
+    </member>
+    <member name="P:BO.Utilisateur.Nom">
+      <summary>
+            Nom de l'utilisateur
+            </summary>
+    </member>
+    <member name="P:BO.Utilisateur.Prenom">
+      <summary>
+            Prénom de l'utilisateur
+            </summary>
+    </member>
+    <member name="P:BO.Utilisateur.Admin">
+      <summary>
+            L'utilisateur est il admin
+            </summary>
+    </member>
+    <member name="N:API">
+      <summary />
+    </member>
+    <member name="N:BLL_Client">
+      <summary />
+    </member>
+    <member name="N:BLL_Server">
+      <summary />
+    </member>
+    <member name="N:BO">
+      <summary />
+    </member>
+    <member name="N:BO.DTO">
+      <summary />
+    </member>
+    <member name="N:DAL">
+      <summary />
+    </member>
+    <member name="N:DAL.Configuration">
+      <summary />
+    </member>
+    <member name="N:DAL.DAO">
+      <summary />
+    </member>
+    <member name="N:DAL.Exceptions">
+      <summary />
+    </member>
+  </members>
+</doc>

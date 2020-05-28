@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BLL_Server</name>
+    </assembly>
+    <members>
+        <member name="T:BLL_Server.ControllerS">
+            <summary>
+            Regroupe les méthodes de classes
+            </summary>
+        </member>
+    </members>
+</doc>

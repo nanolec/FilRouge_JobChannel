@@ -49,7 +49,7 @@ namespace IHM.UserControls
                 {
                     this.RefreshForm();
                     this.Enabled = true;
-                 }
+                }
             }
         }
 
@@ -70,7 +70,8 @@ namespace IHM.UserControls
                 mode = EModeDetailsOffre.CREATION;
                 Offre = offreIn;
             }
-            else {
+            else
+            {
                 mode = EModeDetailsOffre.MODIFICATION;
                 Offre = offreIn;
             }
@@ -80,7 +81,7 @@ namespace IHM.UserControls
             base.OnParentChanged(e);
 
             if (Parent == null) return;
-            switch(mode)
+            switch (mode)
             {
                 case EModeDetailsOffre.CREATION:
                     ParentForm.Text = "Ajouter une offre";
@@ -227,7 +228,7 @@ namespace IHM.UserControls
                         string lien = ((TextBox)formControls["Lien"]).Text;
 
 
-                        Offre offre = new Offre(titre, description, poste, contrat, region, creation, lien );
+                        Offre offre = new Offre(titre, description, poste, contrat, region, creation, lien);
                         int result = controller.InsertOffre(offre);
 
                         if (result == 1)
@@ -287,7 +288,7 @@ namespace IHM.UserControls
                         }
                         this.ParentForm.Close();
                     }
-                }   
+                }
             }
         }
 
@@ -316,7 +317,7 @@ namespace IHM.UserControls
                     {
                         MessageBox.Show("Aucune offre n'a été supprimée");
                     }
-                RefreshListEvent(this, new EventArgs());
+                    RefreshListEvent(this, new EventArgs());
                 }
             }
         }
@@ -331,7 +332,8 @@ namespace IHM.UserControls
                 foreach (KeyValuePair<string, Control> kp in formControls)
                 {
                     if (mode != EModeDetailsOffre.READ_ONLY) kp.Value.Enabled = true;
-                    else { 
+                    else
+                    {
                         kp.Value.Enabled = false;
                         // Règle pb affichage en bleu
                         if (kp.Value is ComboBox)
@@ -393,5 +395,5 @@ namespace IHM.UserControls
             RefreshListEvent(this, new EventArgs());
         }
     }
-    
+
 }

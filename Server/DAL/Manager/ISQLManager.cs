@@ -39,5 +39,5 @@ namespace DAL
         int ExecuteNonQueryProc(string procedureName, List<SqlParameter> parameters = null);
 
     }
-}  
+}
 

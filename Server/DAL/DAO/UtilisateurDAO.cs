@@ -1,13 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using BO;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using BO;
 
 namespace DAL.DAO
 {
     public class UtilisateurDAO : DAO_BASE, IUtilisateurDAO
     {
-        public UtilisateurDAO(ISQLManager sQLManager) : base(sQLManager) {}
+        public UtilisateurDAO(ISQLManager sQLManager) : base(sQLManager) { }
 
         /// <summary>
         /// Retourne tous les utilisateurs qui sont en base de données
@@ -56,7 +56,7 @@ namespace DAL.DAO
         public bool IsAdmin(int UtilisateurId)
         {
             Utilisateur u = FindUtilisateurById(UtilisateurId);
-            return (u != null) ? u.Admin : false;          
+            return (u != null) ? u.Admin : false;
         }
 
     }

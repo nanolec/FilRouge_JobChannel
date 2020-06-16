@@ -79,7 +79,7 @@ namespace BO
             this.Titre = (columns.Contains("TITRE") && row["TITRE"] != DBNull.Value) ? (string)row["TITRE"] : null;
             this.Description = (columns.Contains("DESCRIPTION") && row["DESCRIPTION"] != DBNull.Value) ? (string)row["DESCRIPTION"] : null;
             this.Lien = (columns.Contains("LIEN") && row["LIEN"] != DBNull.Value) ? (string)row["LIEN"] : null;
-            this.Creation = (columns.Contains("CREATION") && row["CREATION"] != DBNull.Value) ? (DateTime?)row["CREATION"] :null;
+            this.Creation = (columns.Contains("CREATION") && row["CREATION"] != DBNull.Value) ? (DateTime?)row["CREATION"] : null;
             this.Modif = (columns.Contains("MODIF") && row["MODIF"] != DBNull.Value) ? (DateTime?)row["MODIF"] : null;
 
         }

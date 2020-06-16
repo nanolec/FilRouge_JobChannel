@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace BLL_Client
 {
-    public class ControllerC 
+    public class ControllerC
     {
         /// <summary>
         /// Instanciation du RestClient
         /// Passage de l'URL de base en tant que chaîne
         /// </summary>
-        RestClient objClient = new RestClient("http://localhost:55744/JobChannelService.svc");
+        RestClient objClient = new RestClient("http://user10.2isa.org/JobChannelService.svc");
         CancellationTokenSource token = null;
 
         /// <summary>
@@ -173,10 +173,11 @@ namespace BLL_Client
             List<Offre> listOffre = null;
             RestRequest request = new RestRequest("offresFiltrer", Method.POST);
             request.AddJsonBody(ParseJson(filtersOffre));
-            if(token != null && token.Token.CanBeCanceled) { token.Cancel(); }
+           
+            if (token != null && token.Token.CanBeCanceled) { token.Cancel(); }
             token = new CancellationTokenSource();
-            Task<IRestResponse<List<Offre>>> restResponse = objClient.ExecuteAsync<List<Offre>>(request , token.Token);
-    
+            Task<IRestResponse<List<Offre>>> restResponse = objClient.ExecuteAsync<List<Offre>>(request, token.Token);
+
             await restResponse;
             if (restResponse.Result.StatusCode == HttpStatusCode.OK)
             {

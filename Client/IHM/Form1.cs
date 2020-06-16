@@ -61,7 +61,7 @@ namespace IHM
             InitializeComponent();
 
             Load += Form1_Load;
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -221,16 +221,16 @@ namespace IHM
 
             try
             {
-            var t = controller.GetOffres(new FiltersOffreRequest(region, contrat, poste, intervalle));
-            await t;
-            offreSource.DataSource = t.Result;
+                var t = controller.GetOffres(new FiltersOffreRequest(region, contrat, poste, intervalle));
+                await t;
+                offreSource.DataSource = t.Result;
 
             }
             catch { }
 
             if (dataGridViewOffre.RowCount > 0)
             {
-            this.dataGridViewOffre.Columns["Id"].Visible = false;
+                this.dataGridViewOffre.Columns["Id"].Visible = false;
             }
             compteur.Text = dataGridViewOffre.RowCount.ToString();
         }
@@ -306,7 +306,7 @@ namespace IHM
         private void ComboBoxRegion_SelectedValueChanged(object sender, EventArgs e)
         {
             Region region = (Region)comboBoxRegion.SelectedValue;
-            if(region.Id != null)
+            if (region.Id != null)
             {
                 filtersOffreRequest.region = region;
             }

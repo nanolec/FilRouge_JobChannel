@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using BLL_Server;
+﻿using BLL_Server;
 using BO;
 using BO.DTO;
+using System.Collections.Generic;
 
 namespace API
 {
@@ -9,7 +9,7 @@ namespace API
     // REMARQUE : pour lancer le client test WCF afin de tester ce service, sélectionnez JobChannelService.svc ou JobChannelService.svc.cs dans l'Explorateur de solutions et démarrez le débogage.
     public class JobChannelService : IJobChannelService
     {
-        
+
         ControllerS controllerS = new ControllerS();
 
         public List<Offre> GetOffres()
@@ -19,7 +19,7 @@ namespace API
 
         public List<Offre> GetOffresFiltrer(FiltersOffreRequest filtre)
         {
-            if( filtre == null)
+            if (filtre == null)
             {
                 return controllerS.GetOffres();
             }

@@ -1,8 +1,8 @@
 ﻿using BO;
 using BO.DTO;
+using System.Collections.Generic;
 using System.ServiceModel;
 using System.ServiceModel.Web;
-using System.Collections.Generic;
 
 namespace API
 {
@@ -16,7 +16,7 @@ namespace API
         List<Offre> GetOffres();
 
         [OperationContract]
-        [WebInvoke(UriTemplate ="offresFiltrer",Method ="POST", ResponseFormat = WebMessageFormat.Json)]
+        [WebInvoke(UriTemplate = "offresFiltrer", Method = "POST", ResponseFormat = WebMessageFormat.Json)]
         List<Offre> GetOffresFiltrer(FiltersOffreRequest filtre);
 
         [OperationContract]

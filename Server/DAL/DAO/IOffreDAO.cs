@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using BO;
+﻿using BO;
 using BO.DTO;
+using System.Collections.Generic;
 
 namespace DAL.DAO
 {

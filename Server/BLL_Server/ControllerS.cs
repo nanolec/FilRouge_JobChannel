@@ -8,7 +8,7 @@ namespace BLL_Server
     /// <summary>
     /// Regroupe les méthodes de classes
     /// </summary>
-   
+
     public class ControllerS
     {
         public List<Offre> GetOffres()
@@ -20,7 +20,7 @@ namespace BLL_Server
         {
             return ConfigDAL.offreDAO.GetOffresByContratId(idContrat);
         }
-        
+
         public List<Offre> GetOffresByRegionId(int idRegion)
         {
             return ConfigDAL.offreDAO.GetOffresByRegionId(idRegion);

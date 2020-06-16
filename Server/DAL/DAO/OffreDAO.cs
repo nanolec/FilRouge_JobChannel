@@ -69,11 +69,12 @@ namespace DAL.DAO
 
             if (value != null)
             {
-                if(parameters.Count == 0)
+                if (parameters.Count == 0)
                 {
                     query += " WHERE ";
 
-                } else
+                }
+                else
                 {
                     query += " AND ";
                 }
@@ -81,17 +82,17 @@ namespace DAL.DAO
                 query += $" {member} {opr} {paramName} ";
 
                 parameters.Add(new SqlParameter(paramName, value));
-                
+
             }
-            
+
             return query;
         }
-            /// <summary>
-            /// Retourne l'Offre en fonction de sont identifiant unique
-            /// </summary>
-            /// <param name="OffreId">Identifiant unique</param>
-            /// <remarks>Peut être nul si il n'existe pas en base de données</remarks>
-            /// <returns>L'Offre en fonction de l'id passé en paramètre</returns>
+        /// <summary>
+        /// Retourne l'Offre en fonction de sont identifiant unique
+        /// </summary>
+        /// <param name="OffreId">Identifiant unique</param>
+        /// <remarks>Peut être nul si il n'existe pas en base de données</remarks>
+        /// <returns>L'Offre en fonction de l'id passé en paramètre</returns>
         public Offre FindOffreByID(int OffreId)
         {
             DataSet dataSet = SQLManager.ExcecuteQuery("SELECT * FROM OFFRE WHERE ID = @ID", new List<SqlParameter>()
@@ -103,7 +104,7 @@ namespace DAL.DAO
                 Poste p = Configuration.ConfigDAL.posteDAO.FindPosteByID((int)dataSet.Tables[0].Rows[0]["POS_ID"]);
                 Contrat c = Configuration.ConfigDAL.contratDAO.FindContratByID((int)dataSet.Tables[0].Rows[0]["CON_ID"]);
                 Region r = Configuration.ConfigDAL.regionDAO.FindRegionByID((int)dataSet.Tables[0].Rows[0]["REG_ID"]);
-                return new Offre(dataSet.Tables[0].Rows[0], p, c , r);
+                return new Offre(dataSet.Tables[0].Rows[0], p, c, r);
             }
             return null;
         }
@@ -206,7 +207,7 @@ namespace DAL.DAO
             int i = SQLManager.ExecuteNonQuery(@"INSERT INTO OFFRE(POS_ID, CON_ID, REG_ID, TITRE, DESCRIPTION, LIEN, CREATION, MODIF )   VALUES  (@POS_ID,  @CON_ID, @REG_ID,
                                                         @TITRE, @DESCRIPTION, @LIEN, @CREATION, @MODIF); SET @ID = SCOPE_IDENTITY();"
 
-            , new List<SqlParameter>() 
+            , new List<SqlParameter>()
              {
                 id,
                 new SqlParameter("@POS_ID", offre.Poste.Id),
@@ -245,7 +246,7 @@ namespace DAL.DAO
                 new SqlParameter("@CREATION", offre.Creation),
                 new SqlParameter("@MODIF", DateTime.Now),
                 new SqlParameter("@ID", offre.Id),
- 
+
                });
             return i;
         }

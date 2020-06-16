@@ -24,5 +24,14 @@ namespace IHM_Mobile.Views
 
             Frame.Navigate(typeof(Detail_Offre), offre);
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBox cb = (ComboBox)sender;
+
+            var region = (RegionM)cb.SelectedItem;
+
+            ViewModel.FilterFavoris(region);
+        }
     }
 }

@@ -12,15 +12,10 @@ namespace IHM_Mobile.ViewModels
     {
         public ObservableCollection<OffreM> OffresList = new ObservableCollection<OffreM>();
 
-        //public OffreM offre { get; set; }
-
-        //public void Refresh()
-        //{
-        //    this.OnPropertyChanged("offre");
-        //}
         public FavorisViewModel()
         {
             initData();
+            GetRegion();
         }
 
         public async Task initData()
@@ -31,7 +26,28 @@ namespace IHM_Mobile.ViewModels
             {
                 OffresList.Add(o);
             });
+        }
 
+        public ObservableCollection<RegionM> RegionsList = new ObservableCollection<RegionM>();
+
+        public void GetRegion()
+        {
+            RegionsList.Clear();
+            List<RegionM> regions = RegionS.getInstance().getRegion();
+            regions.ToList().ForEach(r =>
+            {
+                RegionsList.Add(r);
+            });
+        }
+
+        public async Task FilterFavoris(RegionM region)
+        {
+            OffresList.Clear();
+            IEnumerable<OffreM> offres = await OffreS.getInstance().getOffrebyRegion(region, true);
+            offres.ToList().ForEach(o =>
+            {
+                OffresList.Add(o);
+            });
         }
     }
 }

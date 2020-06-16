@@ -38,10 +38,9 @@ namespace IHM_Mobile.ViewModels
             {
                 RegionsList.Add(r);
             });
-
         }
 
-        public async Task RefreshData(RegionM region)
+        public async Task FilterData(RegionM region)
         {
             OffresList.Clear();
             IEnumerable<OffreM> offres = await OffreS.getInstance().getOffrebyRegion(region, false);
@@ -50,6 +49,5 @@ namespace IHM_Mobile.ViewModels
                 OffresList.Add(o);
             });
         }
-
     }
 }

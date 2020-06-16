@@ -9,7 +9,6 @@
     mc:Ignorable="d">
 
     <Page.Resources>
-
         <DataTemplate x:Key="OffresListViewTemplate" x:DataType="local:OffreM">
             <Grid>
                 <Grid.RowDefinitions>

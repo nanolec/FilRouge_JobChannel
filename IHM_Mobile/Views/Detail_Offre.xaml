@@ -27,7 +27,7 @@
                 <TextBlock Grid.Row="2" Text="{x:Bind ViewModel.offre.Description}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.Row="3" Text="{x:Bind ViewModel.offre.Contrat}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.Row="4" Text="{x:Bind ViewModel.offre.Poste}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
-                <TextBlock Grid.Row="5" Text="{x:Bind ViewModel.offre.Region}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="5" Text="{x:Bind ViewModel.offre.Region.Nom}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.Row="6" Text="{x:Bind ViewModel.offre.Lien}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
                 <!--<TextBlock Text="{x:Bind ViewModel.offre.isFavorite}" x:DefaultBindMode="OneWay"></TextBlock>-->
                 <ToggleButton Grid.Row="7" IsChecked="{x:Bind ViewModel.offre.isFavorite}"  Content="Favoris" Click="ToggleButton_Click" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked"></ToggleButton>

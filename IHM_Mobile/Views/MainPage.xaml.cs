@@ -32,7 +32,7 @@ namespace IHM_Mobile.Views
 
             var region = (RegionM)cb.SelectedItem;
 
-            ViewModel.RefreshData(region);
+            ViewModel.FilterData(region);
         }
     }
 }

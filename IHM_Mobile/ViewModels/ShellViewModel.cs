@@ -20,21 +20,6 @@ namespace IHM_Mobile.ViewModels
 {
     public class ShellViewModel : Observable
     {
-        //// Modifs Arnaud
-        //public ObservableCollection<RegionM> RegionsList = new ObservableCollection<RegionM>();
-
-        //public async Task initData()
-        //{
-        //    RegionsList.Clear();
-        //    //IEnumerable<OffreM> offres = await OffreS.getInstance().getOffrebyRegion(null, false);
-        //    List<RegionM> regions = RegionS.getInstance().getRegion();
-        //    regions.ToList().ForEach(r =>
-        //    {
-        //        RegionsList.Add(r);
-        //    });
-
-        //}
-
         private readonly KeyboardAccelerator _altLeftKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.Left, VirtualKeyModifiers.Menu);
         private readonly KeyboardAccelerator _backKeyboardAccelerator = BuildKeyboardAccelerator(VirtualKey.GoBack);
 

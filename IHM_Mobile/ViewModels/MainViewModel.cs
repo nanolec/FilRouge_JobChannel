@@ -14,6 +14,7 @@ namespace IHM_Mobile.ViewModels
 
         public MainViewModel() {
             initData();
+            GetRegion();
         }
 
         public async Task initData()
@@ -26,5 +27,29 @@ namespace IHM_Mobile.ViewModels
             });
 
         }
+
+        public ObservableCollection<RegionM> RegionsList = new ObservableCollection<RegionM>();
+
+        public void GetRegion()
+        {
+            RegionsList.Clear();
+            List<RegionM> regions = RegionS.getInstance().getRegion();
+            regions.ToList().ForEach(r =>
+            {
+                RegionsList.Add(r);
+            });
+
+        }
+
+        public async Task RefreshData(RegionM region)
+        {
+            OffresList.Clear();
+            IEnumerable<OffreM> offres = await OffreS.getInstance().getOffrebyRegion(region, false);
+            offres.ToList().ForEach(o =>
+            {
+                OffresList.Add(o);
+            });
+        }
+
     }
 }

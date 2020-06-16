@@ -2,7 +2,6 @@
     x:Class="IHM_Mobile.Views.Detail_Offre"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:IHM_Mobile.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
@@ -10,31 +9,29 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
-        <Grid
-            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-
+        <Grid Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
-            <TextBlock Grid.Row="1" Text="{x:Bind ViewModel.offre.Titre}" Style="{ThemeResource BaseTextBlockStyle}"></TextBlock>
-            <TextBlock Grid.Row="2" Text="{x:Bind ViewModel.offre.Description}" Style="{ThemeResource BodyTextBlockStyle}"></TextBlock>
-            <TextBlock Grid.Row="3" Text="{x:Bind ViewModel.offre.Contrat}" Style="{ThemeResource BodyTextBlockStyle}"></TextBlock>
-            <TextBlock Grid.Row="4" Text="{x:Bind ViewModel.offre.Poste}" Style="{ThemeResource BodyTextBlockStyle}"></TextBlock>
-            <TextBlock Grid.Row="5" Text="{x:Bind ViewModel.offre.Region}" Style="{ThemeResource BodyTextBlockStyle}"></TextBlock>
-            <TextBlock Grid.Row="6" Text="{x:Bind ViewModel.offre.Lien}" Style="{ThemeResource BodyTextBlockStyle}"></TextBlock>
-            <!--<TextBlock Text="{x:Bind ViewModel.offre.isFavorite}" x:DefaultBindMode="OneWay"></TextBlock>-->
-            <ToggleButton Grid.Row="7" IsChecked="{x:Bind ViewModel.offre.isFavorite}"  Content="Favoris" Click="ToggleButton_Click" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked"></ToggleButton>
+            <StackPanel>
+                <TextBlock Grid.Row="1" Text="{x:Bind ViewModel.offre.Titre}" Style="{ThemeResource BaseTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="2" Text="{x:Bind ViewModel.offre.Description}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="3" Text="{x:Bind ViewModel.offre.Contrat}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="4" Text="{x:Bind ViewModel.offre.Poste}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="5" Text="{x:Bind ViewModel.offre.Region}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Grid.Row="6" Text="{x:Bind ViewModel.offre.Lien}" Style="{ThemeResource BodyTextBlockStyle}" TextWrapping="Wrap"></TextBlock>
+                <!--<TextBlock Text="{x:Bind ViewModel.offre.isFavorite}" x:DefaultBindMode="OneWay"></TextBlock>-->
+                <ToggleButton Grid.Row="7" IsChecked="{x:Bind ViewModel.offre.isFavorite}"  Content="Favoris" Click="ToggleButton_Click" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked"></ToggleButton>
+            </StackPanel>    
         </Grid>
     </Grid>
 </Page>

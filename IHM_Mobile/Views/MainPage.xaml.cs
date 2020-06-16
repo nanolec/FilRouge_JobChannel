@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using IHM_Mobile.Core.Models;
 using IHM_Mobile.ViewModels;
 
@@ -23,6 +24,15 @@ namespace IHM_Mobile.Views
             var offre = (OffreM) view.SelectedItem;
 
             Frame.Navigate(typeof(Detail_Offre), offre);
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBox cb = (ComboBox)sender;
+
+            var region = (RegionM)cb.SelectedItem;
+
+            ViewModel.RefreshData(region);
         }
     }
 }

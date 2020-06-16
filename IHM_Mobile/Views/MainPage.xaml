@@ -44,18 +44,22 @@
     </Page.Resources>
 
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
-        <Grid
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ComboBox DisplayMemberPath="Nom" SelectedValuePath="Id"
+              Header="Filtre par Région" Width="200" Grid.Row="0"
+              ItemsSource="{x:Bind ViewModel.RegionsList}"
+              SelectionChanged="ComboBox_SelectionChanged"/>
+        <Grid Grid.Row="1"
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
             <ListView 
             SelectionMode="Single" 
             ItemTemplate="{StaticResource OffresListViewTemplate}"
             ItemsSource="{x:Bind ViewModel.OffresList}"
             SelectionChanged="ListView_SelectionChanged"/>
-
         </Grid>
     </Grid>
-
-    
-    
 </Page>
     

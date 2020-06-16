@@ -9,7 +9,6 @@
     xmlns:views="using:IHM_Mobile.Views"
     xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
     xmlns:i="using:Microsoft.Xaml.Interactivity"
-    xmlns:local="using:IHM_Mobile.Core.Models"
     mc:Ignorable="d">
 
     <i:Interaction.Behaviors>
@@ -44,9 +43,7 @@
         </i:Interaction.Behaviors>
         <!--<DataTemplate x:DataType="local:RegionM">-->
             <Grid>
-                <!--<ComboBox ItemsSource="{x:Bind Nom }" DisplayMemberPath="Item1" SelectedValuePath="Item2"
-              Header="Filtre par Région" Width="200" Loaded="Combo2_Loaded"/>-->
-                <Frame x:Name="shellFrame" Margin="0,60,0,0" />
+                <Frame x:Name="shellFrame"/>
             </Grid>
         <!--</DataTemplate>-->
     </winui:NavigationView>

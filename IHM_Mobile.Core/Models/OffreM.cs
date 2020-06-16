@@ -52,9 +52,9 @@ namespace IHM_Mobile.Core.Models
             /// Modif date de l'Offre
             /// </summary>
             public DateTime? Modif { get; set; }
-            
      
             public Boolean isFavorite { get; set; }
+
         public OffreM (Offre offre) 
         {
             Id = offre.Id;
